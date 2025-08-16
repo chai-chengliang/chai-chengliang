@@ -1,0 +1,2965 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-RFR2GFKT75"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+  
+    gtag('config', 'G-RFR2GFKT75');
+  </script> -->
+  <!-- Google Tag Manager -->
+  <!-- <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  })(window,document,'script','dataLayer','GTM-NC38VTD');</script> -->
+  <!-- End Google Tag Manager -->
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- <meta http-equiv="refresh" content="0; URL=https://cs.stanford.edu/~leoyuan/"> -->
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	  
+	<!-- <meta name="google-site-verification" content="u_--0s_Uw50r4zCgRrzltkmFhNCduYOJwPGlKVTuNJU" /> -->
+
+  <title>Chengliang Chai</title>
+  <meta name="description" lang="en" content="This is an academic website for Chengliang Chai">
+  <meta name="keywords" lang="en" content="Chengliang Chai" />
+  
+
+  <link rel="shortcut icon" href="images/BIT2.png">
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="css/custom.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/academicons.css"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+
+
+  <script src="js/jquery-2.1.3.min.js"> </script>
+
+  <!--[if lt IE 9]>
+<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js">
+</script>
+<![endif]-->
+
+  <script type="text/javascript">
+    function ShowHide(divId, linkDivId) {
+        if(document.getElementById(divId).style.display == 'none') {
+            document.getElementById(divId).style.display='block';
+            document.getElementById(linkDivId).style.display='none'; // Hide the "read more" link
+        }
+        else {
+            document.getElementById(divId).style.display = 'none';
+        }
+    }
+  </script>
+
+  <style>
+    /* 为所有列表项设置样式 */
+    li.indented {
+        position: relative;
+        padding-left: 90px; /* 这是对齐效果的关键，可以根据实际内容调整这个值 */
+    }
+
+    li.indented::before {
+        content: attr(data-date);
+        position: absolute;
+        left: 0;
+        top: 0;
+        white-space: nowrap;
+    }
+
+  </style>
+  
+
+  
+</head>
+
+
+<body>
+
+    <!-- Google Tag Manager (noscript) -->
+<!-- <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NC38VTD"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> -->
+<!-- End Google Tag Manager (noscript) -->
+
+    <header class="site-header">
+
+  <div class="wrapper">
+<nav class="site-nav">
+  <a href="#" class="menu-icon">
+    <svg viewBox="0 0 18 15">
+      <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+      <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+      <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+    </svg>
+  </a>
+
+  <div class="trigger">
+    <a class="page-link" href="#bio"><b>Biography</b></a>
+    <a class="page-link" href="#timeline"><b>Experiences</b></a>
+    <a class="page-link" href="#publications"><b>Publications</b></a>
+    <a class="page-link" href="#codebase"><b>GitHub</b></a>
+    <a class="page-link" href="#awards"><b>Honors & Awards</b></a>
+    <a class="page-link" href="#academicservices"><b>Academic Services </b></a>
+    <!--<a class="page-link" href="#otherprojects">Projects</a>-->
+    <!-- Button for Posts -->
+  </div>
+</nav>
+  </div>
+</header>
+
+  <div id="profile-cover" class="cover shallow-bg img-responsive"> 
+    <div id="profile-namecard" class="profile-wrapper wrapper-light">
+      <div id="my-pic" class="profile-col profile-col-1">
+        <img id="profile-avatar" src="images/myself.jpg" alt="Me" class="circle-img border-dark"/>
+      </div>
+      <div id="my-contact" class="profile-col profile-col-2">
+        <div id="my-name" class="text-grey-dark">
+          Chengliang Chai<br>
+        </div>
+        <div id="my-title" class="text-grey">
+          School of Computer Science,BIT
+        </div>
+        <div id="my-email" class="text-grey-light">
+          <a href="mailto:ccl@bit.edu.cn">ccl@bit.edu.cn</a>
+        </div>
+
+	</div>
+        <div class="social-media">
+          <a href="https://scholar.google.com/citations?user=qMPFwIUAAAAJ" target="_blank" class="icon-button linkedin">
+          <i class="ai ai-google-scholar-square icon-linkedin" title="google"></i>
+            <span></span>
+          </a>
+
+          <a href="" target="_blank" class="icon-button github">
+            <i class="fa fa-github icon-github" title="GitHub"></i>
+            <span></span>
+          </a>
+
+          <a href="https://dblp.org/" target="_blank" class="icon-button linkedin">
+            <i class="fa fa-database icon-linkedin" title="DBLP"></i>
+            <span></span>
+          </a>
+         
+          <a href="https://cs.bit.edu.cn/szdw/jsml/bssds/110325d289024176b20e6ec7953dd80b.htm" target="_blank" class="icon-button github">
+            <i class="fa fa-university icon-github" title="BIT"></i>
+            <span></span>
+          </a>
+
+          <a href="mailto:ccl@bit.edu.cn" target="_blank" class="icon-button linkedin">
+            <i class="fa fa-envelope icon-linkedin" title="email"></i>
+            <span></span>
+          </a>
+        </div>
+      </div>
+
+      <!-- <div id="my-desc" class="profile-col profile-col-2 hide">
+        <div id="my-desc-title">
+          Another me.
+        </div>
+        <div id="my-desc-content">
+          I enjoy running, traveling, hiking, movies, music and so much more<br>
+        </div>
+      </div> -->
+    </div>
+  </div>
+  <!-- <script type="text/javascript">
+    function deepFeature()
+    {
+      $('#profile-avatar').attr('src', 'images/self-portrait/deep-me.jpg');
+      $('#profile-avatar').removeClass('border-dark');
+      $('#profile-avatar').addClass('border-bright');
+
+      $('#profile-cover').removeClass('shallow-bg');
+      $('#profile-cover').addClass('deep-bg');
+      
+      $('#profile-namecard').removeClass('wrapper-light');
+      $('#profile-namecard').addClass('wrapper-dark');
+      
+      $('#my-desc').removeClass('hide');
+      $('#my-contact').addClass('hide');    
+      // console.log('Move in now...');
+    }
+
+    function shallowFeature()
+    {
+      $('#profile-avatar').attr('src', 'images/self-portrait/me.jpg');
+      $('#profile-avatar').removeClass('border-bright');
+      $('#profile-avatar').addClass('border-dark');
+
+      $('#profile-cover').removeClass('deep-bg');
+      $('#profile-cover').addClass('shallow-bg');
+      
+      $('#profile-namecard').removeClass('wrapper-dark');
+      $('#profile-namecard').addClass('wrapper-light');
+      
+      $('#my-contact').removeClass('hide');
+      $('#my-desc').addClass('hide');
+      // console.log('Move out now...');
+    }
+
+    $(function() { 
+      $('#my-pic').hover(deepFeature, shallowFeature);
+    })
+
+  </script> -->
+
+<div class="page-content">
+<div class="wrapper">
+<div id="bio" class="bio">
+
+  <h1 class="md-heading text-left" style="padding-top: 56px; margin-top: -56px;">
+    <i class="fa fa-id-card" aria-hidden="true"></i>
+    About
+  </h1>
+  <div class="bio-body" style="overflow:hidden;">
+    <p>
+I am Chengliang Chai, an Associate Professor (Special Researcher) and Ph.D. supervisor at <a href="https://cs.bit.edu.cn/" target="_blank"> the School of Computer Science</a>, <a href="https://www.bit.edu.cn/" target="_blank"> Beijing Institute of Technology</a>. I received my Bachelor's degree from <a href="https://www.hit.edu.cn/" target="_blank"> Harbin Institute of Technology</a> in 2015 and completed my Ph.D. at <a href="https://www.tsinghua.edu.cn/" target="_blank"> Tsinghua University</a> in 2020. From 2020 to 2022, I conducted postdoctoral research at Tsinghua University. My research focuses on Artificial intelligence large models, data science, data lakes,and database systems.
+<br>
+
+I'm always looking for related colaboration. If you are interested to chat with me, feel free to drop me an <a href="mailto:ccl@bit.edu.cn" target="_blank">email</a>.
+
+
+      <br>
+    </p>
+
+    <div style="width: 100%"">
+			<h3>
+		    <i class="fa fa-star" aria-hidden="true"></i>
+		    <strong>Interests</strong>
+			</h3>
+      <ul>
+
+        <li><strong>Data-centric AI:</strong> Algorithms, compute, and data are the three pillars of modern AI. I focus on the data: how to systematically empower large language models (LLMs) with better data. My work covers dataset discovery and selection, scalable cleaning and fusion, high-quality annotation (human-in-the-loop and weak supervision), and end-to-end data lineage and quality governance across the model lifecycle.</li>
+        <li><strong> Data Lakes & Large Models:</strong> In the era of multi-source, heterogeneous data, data lakes have become a practical substrate for analytics and AI. I develop methods to index and retrieve lake data for LLM inference (retrieval-augmented generation, RAG), extract and represent knowledge, and enable efficient, accurate multimodal analysis with large models.</li>
+      </ul>
+    </div>
+
+    <div style="width: 100%">
+			<h3>
+				<i class="fa fa-graduation-cap" aria-hidden="true"></i>
+				<strong>Education</strong>
+			</h3>
+			<strong>Tsinghua University</strong><br>
+			<ul>
+        <li>Sep 2015 - Jul 2020. Ph.D, Dept. of Computer Science and Technology</li>
+        <li>Mentor: <a href="https://dbgroup.cs.tsinghua.edu.cn/ligl/index_cn.html" target="_blank">Prof. Guoliang Li</a></li>
+      </ul>
+      
+      <strong>Harbin Institute of Technology</strong><br>
+      <ul>
+        <li>Sep 2011 - Jul 2015. Undergraduate, Dept. of Computer Science and Technology</li>
+      </ul>
+    </div>
+  
+  </div>
+</div>
+
+
+
+<!-- <div class="wrapper"> -->
+  <div id="timeline" class="timeline-brief">
+    <h1 class="md-heading text-left" style="padding-top: 56px; margin-top: -56px;">
+      <i class="fa fa-tasks" aria-hidden="true"></i>
+      Experiences
+    </h1>
+  
+    <div class="timeline-body">
+      <div class="timeline-item">
+        <div class="timeline-date">
+          <img class="social-icon" src="images/BIT.png"/>
+          Sep 2022 - Now
+        </div>
+        <div class="timeline-title">
+          Ph.D. Advisor @ <a href="https://www.bit.edu.cn/" target="_blank">Beijing Institute of Technology</a>
+        </div>
+        <div class="timeline-desc">
+          
+        </div>
+      </div>
+  
+      
+      <div class="timeline-item">
+        <div class="timeline-date">
+          <img class="social-icon" src="images/Tsinghua.png"/>
+          Sep 2020 - Jul 2022
+        </div>
+        <div class="timeline-title">
+          Postdoctoral Researcher @ <a href="https://www.tsinghua.edu.cn/" target="_blank">Tsinghua University</a>
+        </div>
+        <div class="timeline-desc">
+
+        </div>
+      </div>
+  
+      
+      <div class="timeline-item">
+        <div class="timeline-date">
+          <img class="social-icon" src="images/Tsinghua.png"/>
+          Sep 2015 - Jul 2020
+        </div>
+        <div class="timeline-title">
+          Ph.D. @  <a href="https://www.tsinghua.edu.cn/" target="_blank">Tsinghua University</a>
+        </div>
+        <div class="timeline-desc">
+          <div class="timeline-host">
+            Supervisor: <a href="https://dbgroup.cs.tsinghua.edu.cn/ligl/index_cn.html" target="_blank">Prof. Guoliang Li</a></li>
+          </div>
+        </div>
+      </div>
+  
+      
+      <div class="timeline-item">
+        <div class="timeline-date">
+          <img class="social-icon" src="images/HIT.png"/>
+          Sep 2011 - Jul 2015. 
+        </div>
+        <div class="timeline-title">
+          Undergraduate @ <a href="https://www.hit.edu.cn/" target="_blank">Harbin Institute of Technology</a>
+        </div>
+        <div class="timeline-desc">
+
+      </div>
+      </div>
+  
+
+  
+    <br>
+  </div>
+  </div>
+
+
+<div id="publications" class="publications">
+  <h1 class="md-heading text-left" style="padding-top: 56px; margin-top: -56px;">
+    <i class="fa fa-file" aria-hidden="true"></i>
+    Publications (<button class="custom-button" id="show-selected-btn"> Show Representative </button> / <button class="custom-button" id="show-all-btn"> Show All </button>)
+  </h1>
+
+
+
+  <div class="pub-list">
+
+    <div class="pub" data-selected="true">
+      <div class="pub-left">
+        <img class="intro-img frame" src="images/QUEST.png">
+      </div>
+      <div class="pub-right">
+        <div class="title">
+          QUEST: Query Optimization in Unstructured Document Analysis
+        </div>
+        <div class="authors">
+          <font style="font-size: 11pt;">
+            Zhaoze Sun, Qiyan Deng, <b>Chengliang Chai</b>, Kaisen Jin, Xinyu Guo, Han Han, Ye Yuan, Guoren Wang, Lei Cao
+          </font>
+        </div>
+        <div class="publish">
+          <span class="place">VLDB 2025</span>
+          <span class="place"></span>
+        </div>
+        <div class="tags">
+          [<a class="tag" href="https://arxiv.org/abs/2507.06515" target="_blank">Paper</a>]
+          
+        </div>
+      </div>
+    </div>
+
+        <div class="pub" data-selected="true">
+          <div class="pub-left">
+            <img class="intro-img frame" src="images/OIE.png">
+          </div>
+          <div class="pub-right">
+            <div class="title">
+              OIE: An Interpretable System for Outlier Explanation and Summarization
+            </div>
+            <div class="authors">
+              <font style="font-size: 11pt;">
+                Jingzhe Xu, Yuhao Deng, <b>Chengliang Chai</b>, Zequn Li, Yuping Wang, Lei Cao
+              </font>
+            </div>
+            <div class="publish">
+              <span class="place">VLDB 2025</span>
+              <span class="place"></span>
+            </div>
+            <div class="tags">
+              [<a class="tag" href="https://dl.acm.org/doi/abs/10.1145/3722212.3725120" target="_blank">Paper</a>]
+              
+            </div>
+          </div>
+        </div>
+
+        <div class="pub" data-selected="true">
+          <div class="pub-left">
+            <img class="intro-img frame" src="images/Doctopus.png">
+          </div>
+          <div class="pub-right">
+            <div class="title">
+              Doctopus: A System for Budget-aware Structural Data Extraction from Unstructured Documents
+            </div>
+            <div class="authors">
+              <font style="font-size: 11pt;">
+                Yuanhao Zhong, Yuhao Deng, <b>Chengliang Chai</b>, Ruixin Gu, Ye Yuan, Guoren Wang, Lei Cao
+              </font>
+            </div>
+            <div class="publish">
+              <span class="place">SIGMOD 2025</span>
+              <span class="place"></span>
+            </div>
+            <div class="tags">
+              [<a class="tag" href="https://dl.acm.org/doi/abs/10.1145/3722212.3725103" target="_blank">Paper</a>]
+              
+            </div>
+          </div>
+        </div>
+
+        <div class="pub" data-selected="true">
+          <div class="pub-left">
+            <img class="intro-img frame" src="images/two-birds.png">
+          </div>
+          <div class="pub-right">
+            <div class="title">
+              Two birds with one stone: Efficient deep learning over mislabeled data through subset selection
+            </div>
+            <div class="authors">
+              <font style="font-size: 11pt;">
+                Yuhao Deng, <b>Chengliang Chai</b>, Kaisen Jin, Linan Zheng, Lei Cao, Ye Yuan, Guoren Wang
+              </font>
+            </div>
+            <div class="publish">
+              <span class="place">SIGMOD 2025</span>
+              <span class="place"></span>
+            </div>
+            <div class="tags">
+              [<a class="tag" href="https://dl.acm.org/doi/abs/10.1145/3728289" target="_blank">Paper</a>]
+              
+            </div>
+          </div>
+        </div>
+
+        <div class="pub" data-selected="true">
+          <div class="pub-left">
+            <img class="intro-img frame" src="images/not-all-documents.png">
+          </div>
+          <div class="pub-right">
+            <div class="title">
+              Not All Documents Are What You Need for Extracting Instruction Tuning Data
+            </div>
+            <div class="authors">
+              <font style="font-size: 11pt;">
+                Chi Zhang, Huaping Zhong, Hongtao Li, <b>Chengliang Chai</b>, Jiawei Hong, Yuhao Deng, Jiacheng Wang, Tian Tan, Yizhou Yan, Jiantao Qiu, Ye Yuan, Guoren Wang, Conghui He, Lei Cao
+              </font>
+            </div>
+            <div class="publish">
+              <span class="place">Arxiv 2025</span>
+              <span class="place"></span>
+            </div>
+            <div class="tags">
+              [<a class="tag" href="https://arxiv.org/abs/2505.12250" target="_blank">Paper</a>]
+              
+            </div>
+          </div>
+        </div>
+
+        <div class="pub" data-selected="true">
+          <div class="pub-left">
+            <img class="intro-img frame" src="images/cost-effective.png">
+          </div>
+          <div class="pub-right">
+            <div class="title">
+              Cost-effective Missing Value Imputation for Data-effective Machine Learning
+            </div>
+            <div class="authors">
+              <font style="font-size: 11pt;">
+                <b>Chengliang Chai</b>, Kaisen Jin, Nan Tang, Ju Fan, Dongjing Miao, Jiayi Wang, Yuyu Luo, Guoliang Li, Ye Yuan, Guoren Wang
+              </font>
+            </div>
+            <div class="publish">
+              <span class="place">TODS 2025</span>
+              <span class="place"></span>
+            </div>
+            <div class="tags">
+              [<a class="tag" href="https://dl.acm.org/doi/abs/10.1145/3716376" target="_blank">Paper</a>]
+              
+            </div>
+          </div>
+        </div>
+        
+        <div class="pub" data-selected="true">
+          <div class="pub-left">
+            <img class="intro-img frame" src="images/federated.png">
+          </div>
+          <div class="pub-right">
+            <div class="title">
+              Federated Data Analytics with Differentially Private Density Estimation Model
+            </div>
+            <div class="authors">
+              <font style="font-size: 11pt;">
+                Jiayi Wang, Lei Cao, <b>Chengliang Chai</b>, Guoliang Li
+              </font>
+            </div>
+            <div class="publish">
+              <span class="place">ICDE 2025</span>
+              <span class="place"></span>
+            </div>
+            <div class="tags">
+              [<a class="tag" href="https://dbgroup.cs.tsinghua.edu.cn/ligl/papers/ICDE25-FedData.pdf" target="_blank">Paper</a>]
+              
+            </div>
+          </div>
+        </div>
+        
+        <div class="pub" data-selected="true">
+          <div class="pub-left">
+            <img class="intro-img frame" src="images/lead.png">
+          </div>
+          <div class="pub-right">
+            <div class="title">
+              Lead: Iterative data selection for efficient llm instruction tuning
+            </div>
+            <div class="authors">
+              <font style="font-size: 11pt;">
+                Xiaotian Lin, Yanlin Qi, Yizhang Zhu, Themis Palpanas, <b>Chengliang Chai</b>, Nan Tang, Yuyu Luo
+              </font>
+            </div>
+            <div class="publish">
+              <span class="place">Arxiv 2025</span>
+              <span class="place"></span>
+            </div>
+            <div class="tags">
+              [<a class="tag" href="https://arxiv.org/abs/2505.07437" target="_blank">Paper</a>]
+              [<a class="tag" href="https://github.com/HKUSTDial/LEAD" target="_blank">Code</a>]
+            </div>
+          </div>
+        </div>
+        
+        <div class="pub" data-selected="true">
+          <div class="pub-left">
+            <img class="intro-img frame" src="images/handling.png">
+          </div>
+          <div class="pub-right">
+            <div class="title">
+              Handling Label Noise via Instance-Level Difficulty Modeling and Dynamic Optimization
+            </div>
+            <div class="authors">
+              <font style="font-size: 11pt;">
+                Kuan Zhang, <b>Chengliang Chai</b>, Jingzhe Xu, Chi Zhang, Ye Yuan, Guoren Wang, Lei Cao
+              </font>
+            </div>
+            <div class="publish">
+              <span class="place">Arxiv 2025</span>
+              <span class="place"></span>
+            </div>
+            <div class="tags">
+              [<a class="tag" href="https://arxiv.org/abs/2505.00812" target="_blank">Paper</a>]
+              [<a class="tag" href="https://anonymous.4open.science/r/IDO-noisy_label/" target="_blank">Code</a>]
+            </div>
+          </div>
+        </div>
+        
+        <div class="pub" data-selected="true">
+          <div class="pub-left">
+            <img class="intro-img frame" src="images/harnessing.png">
+          </div>
+          <div class="pub-right">
+            <div class="title">
+              Harnessing diversity for important data selection in pretraining large language models
+            </div>
+            <div class="authors">
+              <font style="font-size: 11pt;">
+                Chi Zhang, Huaping Zhong, Kuan Zhang, <b>Chengliang Chai</b>, Rui Wang, Xinlin Zhuang, Tianyi Bai, Jiantao Qiu, Lei Cao, Ju Fan, Ye Yuan, Guoren Wang, Conghui He
+              </font>
+            </div>
+            <div class="publish">
+              <span class="place">Arxiv 2024</span>
+              <span class="place"></span>
+            </div>
+            <div class="tags">
+              [<a class="tag" href="https://arxiv.org/abs/2409.16986" target="_blank">Paper</a>]
+              
+            </div>
+          </div>
+        </div>
+
+        <div class="pub" data-selected="true">
+          <div class="pub-left">
+            <img class="intro-img frame" src="images/lakecompass.png">
+          </div>
+          <div class="pub-right">
+            <div class="title">
+              LakeCompass: An End-to-End System for Data Maintenance, Search and Analysis in Data Lakes
+            </div>
+            <div class="authors">
+              <font style="font-size: 11pt;">
+                <b>Chengliang Chai</b>, Yuhao Deng, Yutong Zhan, Ziqi Cao, Yuanfang Zhang, Lei Cao, Yuping Wang, Zhiwei Zhang, Ye Yuan, Guoren Wang, Nan Tang
+                <br>
+              </font>
+            </div>
+            <div class="publish">
+              <span class="place">VLDB 2024</span>
+              <span class="place"></span>
+            </div>
+            <div class="tags">
+              [<a class="tag" href="https://dl.acm.org/doi/abs/10.14778/3685800.3685880" target="_blank">Paper</a>]
+              
+            </div>
+          </div>
+        </div>
+        
+        <div class="pub" data-selected="true">
+          <div class="pub-left">
+            <img class="intro-img frame" src="images/IDE.png">
+          </div>
+          <div class="pub-right">
+            <div class="title">
+              IDE: A system for iterative mislabel detection
+            </div>
+            <div class="authors">
+              <font style="font-size: 11pt;">
+                Yuhao Deng, Qiyan Deng, <b>Chengliang Chai</b>, Lei Cao, Nan Tang, Ju Fan, Jiayi Wang, Ye Yuan, Guoren Wang
+              </font>
+            </div>
+            <div class="publish">
+              <span class="place">SIGMOD 2024</span>
+              <span class="place"></span>
+            </div>
+            <div class="tags">
+              [<a class="tag" href="https://dl.acm.org/doi/abs/10.1145/3626246.3654737" target="_blank">Paper</a>]
+              
+            </div>
+          </div>
+        </div>
+        
+        <div class="pub" data-selected="true">
+          <div class="pub-left">
+            <img class="intro-img frame" src="images/dawnofnatural.png">
+          </div>
+          <div class="pub-right">
+            <div class="title">
+              The dawn of natural language to sql: Are we fully ready?
+            </div>
+            <div class="authors">
+              <font style="font-size: 11pt;">
+                Boyan Li, Yuyu Luo, <b>Chengliang Chai</b>, Guoliang Li, Nan Tang
+              </font>
+            </div>
+            <div class="publish">
+              <span class="place">VLDB 2024</span>
+              <span class="place"></span>
+            </div>
+            <div class="tags">
+              [<a class="tag" href="https://arxiv.org/abs/2406.01265" target="_blank">Paper</a>]
+              [<a class="tag" href="https://github.com/HKUSTDial/NL2SQL360" target="_blank">Code</a>]
+            </div>
+          </div>
+        </div>
+        
+        <div class="pub" data-selected="true">
+          <div class="pub-left">
+            <img class="intro-img frame" src="images/application.png">
+          </div>
+          <div class="pub-right">
+            <div class="title">
+              Applications and challenges for large language models: From data management perspective
+            </div>
+            <div class="authors">
+              <font style="font-size: 11pt;">
+                Meihui Zhang, Zhaoxuan Ji, Zhaojing Luo, Yuncheng Wu, <b>Chengliang Chai</b>
+              </font>
+            </div>
+            <div class="publish">
+              <span class="place">ICDE 2024</span>
+              <span class="place"></span>
+            </div>
+            <div class="tags">
+              [<a class="tag" href="https://ieeexplore.ieee.org/abstract/document/10598077/" target="_blank">Paper</a>]
+              
+            </div>
+          </div>
+        </div>
+        
+        <div class="pub" data-selected="true">
+          <div class="pub-left">
+            <img class="intro-img frame" src="images/representation.png">
+          </div>
+          <div class="pub-right">
+            <div class="title">
+              Representation learning for entity alignment in knowledge graph: A design space exploration
+            </div>
+            <div class="authors">
+              <font style="font-size: 11pt;">
+                Peng Huang, Meihui Zhang, Ziyue Zhong, <b>Chengliang Chai</b>, Ju Fan
+              </font>
+            </div>
+            <div class="publish">
+              <span class="place">ICDE 2024</span>
+            </div>
+            <div class="tags">
+              [<a class="tag" href="https://ieeexplore.ieee.org/abstract/document/10598146/" target="_blank">Paper</a>]
+              
+            </div>
+          </div>
+        </div>
+        
+        <div class="pub" data-selected="true">
+          <div class="pub-left">
+            <img class="intro-img frame" src="images/mitigating.png">
+          </div>
+          <div class="pub-right">
+            <div class="title">
+              Mitigating data scarcity in supervised machine learning through reinforcement learning guided data generation
+            </div>
+            <div class="authors">
+              <font style="font-size: 11pt;">
+                <b>Chengliang Chai</b>, Kasisen Jin, Nan Tang, Ju Fan, Lianpeng Qiao, Yuping Wang, Yuyu Luo, Ye Yuan, Guoren Wang
+              </font>
+            </div>
+            <div class="publish">
+              <span class="place">ICDE 2024</span>
+            </div>
+            <div class="tags">
+              [<a class="tag" href="https://ieeexplore.ieee.org/abstract/document/10597767/" target="_blank">Paper</a>]
+              
+            </div>
+          </div>
+        </div>
+        
+        <div class="pub" data-selected="true">
+          <div class="pub-left">
+            <img class="intro-img frame" src="images/Dmrnet.png">
+          </div>
+          <div class="pub-right">
+            <div class="title">
+              Dmrnet: Effective network for accurate discharge medication recommendation
+            </div>
+            <div class="authors">
+              <font style="font-size: 11pt;">
+                Jiyun Shi, Yuqiao Wang, Chi Zhang, Zhaojing Luo, <b>Chengliang Chai</b>, Meihui Zhang
+              </font>
+            </div>
+            <div class="publish">
+              <span class="place">ICDE 2024</span>
+            </div>
+            <div class="tags">
+              [<a class="tag" href="https://ieeexplore.ieee.org/abstract/document/10597856/" target="_blank">Paper</a>]
+            </div>
+          </div>
+        </div>
+        
+        <div class="pub" data-selected="true">
+          <div class="pub-left">
+            <img class="intro-img frame" src="images/separation.png">
+          </div>
+          <div class="pub-right">
+            <div class="title">
+              Separation is for better reunion: data lake storage at Huawei
+            </div>
+            <div class="authors">
+              <font style="font-size: 11pt;">
+                Xin Tang, <b>Chengliang Chai</b>, Dawei Zhao, Haohai Ma, Yong Zheng, Zhenyong Fan, Xin Wu, Jiaquan Zhang, Rui Zhang, Duanshun Li, Yi He, Keji Huang, Guangbin Meng, Yidong Wang, Yuefeng Zhou, Tao Tao, Lirong Jian, Jiwu Shu, Yuping Wang, Ye Yuan, Guoren Wang, Guoliang Li
+              </font>
+            </div>
+            <div class="publish">
+              <span class="place">ICDE 2024</span>
+            </div>
+            <div class="tags">
+              [<a class="tag" href="https://ieeexplore.ieee.org/abstract/document/10598130/" target="_blank">Paper</a>]
+              
+            </div>
+          </div>
+        </div>
+        
+        <div class="pub">
+          <div class="pub-left">
+            <img class="intro-img frame" src="images/costeffective.png">
+          </div>
+          <div class="pub-right">
+            <div class="title">
+              Cost-effective in-context learning for entity resolution: A design space exploration
+            </div>
+            <div class="authors">
+              <font style="font-size: 11pt;">
+                Meihao Fan, Xiaoyue Han, Ju Fan, <b>Chengliang Chai</b>, Nan Tang, Guoliang Li, Xiaoyong Du
+              </font>
+            </div>
+            <div class="publish">
+              <span class="place">ICDE 2024</span>
+            </div>
+            <div class="tags">
+              [<a class="tag" href="https://ieeexplore.ieee.org/abstract/document/10597751/" target="_blank">Paper</a>]
+              
+            </div>
+          </div>
+        </div>
+        
+        <div class="pub" data-selected="true">
+          <div class="pub-left">
+            <img class="intro-img frame" src="images/misdetect.png">
+          </div>
+          <div class="pub-right">
+            <div class="title">
+              Misdetect: Iterative mislabel detection using early loss
+            </div>
+            <div class="authors">
+              <font style="font-size: 11pt;">
+                Yuhao Deng, <b>Chengliang Chai</b>, Lei Cao, Nan Tang, Jiayi Wang, Ju Fan, Ye Yuan, Guoren Wang
+              </font>
+            </div>
+            <div class="publish">
+              <span class="place">VLDB 2024</span>
+            </div>
+            <div class="tags">
+              [<a class="tag" href="https://repository.arizona.edu/handle/10150/672407" target="_blank">Paper</a>]
+            </div>
+          </div>
+        </div>
+        
+        <div class="pub" data-selected="true">
+          <div class="pub-left">
+            <img class="intro-img frame" src="images/lakebench.png">
+          </div>
+          <div class="pub-right">
+            <div class="title">
+              Lakebench: A benchmark for discovering joinable and unionable tables in data lakes
+            </div>
+            <div class="authors">
+              <font style="font-size: 11pt;">
+                Yuhao Deng, <b>Chengliang Chai</b>, Lei Cao, Qin Yuan, Siyuan Chen, Yanrui Yu, Zhaoze Sun, Junyi Wang, Jiajun Li, Ziqi Cao, Kaisen Jin, Chi Zhang, Yuqing Jiang, Yuanfang Zhang, Yuping Wang, Ye Yuan, Guoren Wang, Nan Tang
+              </font>
+            </div>
+            <div class="publish">
+              <span class="place">VLDB 2024</span>
+            </div>
+            <div class="tags">
+              [<a class="tag" href="https://dl.acm.org/doi/abs/10.14778/3659437.3659448" target="_blank">Paper</a>]
+              [<a class="tag" href="https://github.com/DB-121143/LakeBench" target="_blank">Code</a>]
+            </div>
+          </div>
+        </div>
+        
+        <div class="pub" data-selected="true">
+          <div class="pub-left">
+            <img class="intro-img frame" src="images/PACE.png">
+          </div>
+          <div class="pub-right">
+            <div class="title">
+              PACE: Poisoning attacks on learned cardinality estimation
+            </div>
+            <div class="authors">
+              <font style="font-size: 11pt;">
+                Jintao Zhang, Chao Zhang, Guoliang Li, <b>Chengliang Chai</b>
+              </font>
+            </div>
+            <div class="publish">
+              <span class="place">SIGMOD 2024</span>
+            </div>
+            <div class="tags">
+              [<a class="tag" href="https://dl.acm.org/doi/abs/10.1145/3639292" target="_blank">Paper</a>]
+              
+            </div>
+          </div>
+        </div>
+        
+        <div class="pub" data-selected="true">
+          <div class="pub-left">
+            <img class="intro-img frame" src="images/cardinality.png">
+          </div>
+          <div class="pub-right">
+            <div class="title">
+              Cardinality estimation using normalizing flow
+            </div>
+            <div class="authors">
+              <font style="font-size: 11pt;">
+                Jiayi Wang, <b>Chengliang Chai</b>, Jiabin Liu, Guoliang Li
+              </font>
+            </div>
+            <div class="publish">
+              <span class="place">VLDB 2024</span>
+            </div>
+            <div class="tags">
+              [<a class="tag" href="https://link.springer.com/article/10.1007/s00778-023-00808-x" target="_blank">Paper</a>]
+
+            </div>
+          </div>
+        </div>
+        
+        <div class="pub" data-selected="true">
+          <div class="pub-left">
+            <img class="intro-img frame" src="images/asurvey.png">
+          </div>
+          <div class="pub-right">
+            <div class="title">
+              A survey of multi-dimensional indexes: past and future trends
+            </div>
+            <div class="authors">
+              <font style="font-size: 11pt;">
+                Mingxin Li, Hancheng Wang, Haipeng Dai, Meng Li, <b>Chengliang Chai</b>, Rong Gu, Feng Chen, Zhiyuan Chen, Shuaituan Li, Qizhi Liu, Guihai Chen
+              </font>
+            </div>
+            <div class="publish">
+              <span class="place">TKDE 2024</span>
+            </div>
+            <div class="tags">
+              [<a class="tag" href="https://ieeexplore.ieee.org/abstract/document/10443970/" target="_blank">Paper</a>]
+            </div>
+          </div>
+        </div>
+        
+        <div class="pub" data-selected="true">
+          <div class="pub-left">
+            <img class="intro-img frame" src="images/efficient.png">
+          </div>
+          <div class="pub-right">
+            <div class="title">
+              Efficient coreset selection with cluster-based methods
+            </div>
+            <div class="authors">
+              <font style="font-size: 11pt;">
+                <b>Chengliang Chai</b>, Jiayi Wang, Nan Tang, Ye Yuan, Jiabin Liu, Yuhao Deng, Guoren Wang
+              </font>
+            </div>
+            <div class="publish">
+              <span class="place">KDD 2023</span>
+            </div>
+            <div class="tags">
+              [<a class="tag" href="https://dl.acm.org/doi/abs/10.1145/3580305.3599326" target="_blank">Paper</a>]
+            </div>
+          </div>
+        </div>
+
+        <div class="pub" data-selected="true">
+          <div class="pub-left">
+            <img class="intro-img frame" src="images/goodcore.png">
+          </div>
+          <div class="pub-right">
+            <div class="title">
+              Goodcore: Data-effective and data-efficient machine learning through coreset selection over incomplete data
+            </div>
+            <div class="authors">
+              <font style="font-size: 11pt;">
+                <b>Chengliang Chai</b>, Jiabin Liu, Nan Tang, Ju Fan, Dongjing Miao, Jiayi Wang, Yuyu Luo, Guoliang Li
+              </font>
+            </div>
+            <div class="publish">
+              <span class="place">SIGMOD 2023</span>
+            </div>
+            <div class="tags">
+              [<a class="tag" href="https://dl.acm.org/doi/abs/10.1145/3589302" target="_blank">Paper</a>]
+            </div>
+          </div>
+        </div>
+
+        <div class="pub" data-selected="true">
+          <div class="pub-left">
+            <img class="intro-img frame" src="images/demystifying.png">
+          </div>
+          <div class="pub-right">
+            <div class="title">
+              Demystifying artificial intelligence for data preparation
+            </div>
+            <div class="authors">
+              <font style="font-size: 11pt;">
+                <b>Chengliang Chai</b>, Nan Tang, Ju Fan, Yuyu Luo
+              </font>
+            </div>
+            <div class="publish">
+              <span class="place">SIGMOD 2023</span>
+            </div>
+            <div class="tags">
+              [<a class="tag" href="https://dl.acm.org/doi/abs/10.1145/3555041.3589406" target="_blank">Paper</a>]
+            </div>
+          </div>
+        </div>        
+    
+        <div class="pub" data-selected="true">
+          <div class="pub-left">
+            <img class="intro-img frame" src="images/learneddataaware.png">
+          </div>
+          <div class="pub-right">
+            <div class="title">
+              Learned data-aware image representations of line charts for similarity search
+            </div>
+            <div class="authors">
+              <font style="font-size: 11pt;">
+                Yuyu Luo, Yihui Zhou, Nan Tang, Guoliang Li, <b>Chengliang Chai</b>, Leixian Shen
+              </font>
+            </div>
+            <div class="publish">
+              <span class="place">SIGMOD 2023</span>
+            </div>
+            <div class="tags">
+              [<a class="tag" href="https://ieeexplore.ieee.org/abstract/document/10443970/" target="_blank">Paper</a>]
+            </div>
+          </div>
+        </div>
+
+
+        <div class="pub" data-selected="true">
+          <div class="pub-left">
+            <img class="intro-img frame" src="images/haipipe.png">
+          </div>
+          <div class="pub-right">
+            <div class="title">
+              Haipipe: Combining human-generated and machine-generated pipelines for data preparation
+            </div>
+            <div class="authors">
+              <font style="font-size: 11pt;">
+                Sibei Chen, Nan Tang, Ju Fan, Xuemi Yan, <b>Chengliang Chai</b>, Guoliang Li, Xiaoyong Du
+              </font>
+            </div>
+            <div class="publish">
+              <span class="place">SIGMOD 2023</span>
+            </div>
+            <div class="tags">
+              [<a class="tag" href="https://ieeexplore.ieee.org/abstract/document/10443970/" target="_blank">Paper</a>]
+              [<a class="tag" href="https://github.com/ruc-datalab/Haipipe" target="_blank">Code</a>]
+              
+            </div>
+          </div>
+        </div>
+
+        <div class="pub" data-selected="false">
+          <div class="pub-left">
+            <img class="intro-img frame" src="images/ATopic-AwareData.png">
+          </div>
+          <div class="pub-right">
+            <div class="title">
+              A Topic-Aware Data Generation Framework for Math Word Problems
+            </div>
+            <div class="authors">
+              <font style="font-size: 11pt;">
+                Tianyu Zhao, <b>Chengliang Chai</b>, Jiabin Liu, Guoliang Li, Jianhua Feng, Zitao Liu
+              </font>
+            </div>
+            <div class="publish">
+              <span class="place">DASFAA 2023</span>
+            </div>
+            <div class="tags">
+              [<a class="tag" href="https://ieeexplore.ieee.org/abstract/document/10443970/" target="_blank">Paper</a>]
+            </div>
+          </div>
+        </div>
+  
+
+        <div class="pub" data-selected="true">
+          <div class="pub-left">
+            <img class="intro-img frame" src="images/autoce.png">
+          </div>
+          <div class="pub-right">
+            <div class="title">
+              Autoce: An accurate and efficient model advisor for learned cardinality estimation
+            </div>
+            <div class="authors">
+              <font style="font-size: 11pt;">
+                Jintao Zhang, Chao Zhang, Guoliang Li, <b>Chengliang Chai</b>
+              </font>
+            </div>
+            <div class="publish">
+              <span class="place">ICDE 2023</span>
+            </div>
+            <div class="tags">
+              [<a class="tag" href="https://ieeexplore.ieee.org/abstract/document/10184525/" target="_blank">Paper</a>]
+            </div>
+          </div>
+        </div>
+
+
+        <div class="pub" data-selected="true">
+          <div class="pub-left">
+            <img class="intro-img frame" src="images/HOFD.png">
+          </div>
+          <div class="pub-right">
+            <div class="title">
+              HOFD: An outdated fact detector for knowledge bases
+            </div>
+            <div class="authors">
+              <font style="font-size: 11pt;">
+                Shuang Hao, <b>Chengliang Chai</b>, Guoliang Li, Nan Tang, Ning Wang, Xiang Yu
+              </font>
+            </div>
+            <div class="publish">
+              <span class="place">TKDE 2023</span>
+            </div>
+            <div class="tags">
+              [<a class="tag" href="https://ieeexplore.ieee.org/abstract/document/10054477/" target="_blank">Paper</a>]
+              [<a class="tag" href="https://github.com/Shuang-H/outdated-fact-detection" target="_blank">Code</a>]
+              
+            </div>
+          </div>
+        </div>
+
+
+        <div class="pub" data-selected="true">
+          <div class="pub-left">
+            <img class="intro-img frame" src="images/databasemeetsai.png">
+          </div>
+          <div class="pub-right">
+            <div class="title">
+              Database meets AI: A survey
+            </div>
+            <div class="authors">
+              <font style="font-size: 11pt;">
+                Xuanhe Zhou, <b>Chengliang Chai</b>, Guoliang Li, Ji Sun
+              </font>
+            </div>
+            <div class="publish">
+              <span class="place">TKDE 2023</span>
+            </div>
+            <div class="tags">
+              [<a class="tag" href="https://netman.aiops.org/~peidan/ANM2023/15.Database/aidb.pdf" target="_blank">Paper</a>]
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="pub" data-selected="true">
+          <div class="pub-left">
+            <img class="intro-img frame" src="images/dynamic.png">
+          </div>
+          <div class="pub-right">
+            <div class="title">
+              Dynamic materialized view management using graph neural network
+            </div>
+            <div class="authors">
+              <font style="font-size: 11pt;">
+                Yue Han, <b>Chengliang Chai</b>, Jiabin Liu, Guoliang Li, Chuangxian Wei, Chaoqun Zhan
+              </font>
+            </div>
+            <div class="publish">
+              <span class="place">ICDE 2023</span>
+            </div>
+            <div class="tags">
+              [<a class="tag" href="https://dbgroup.cs.tsinghua.edu.cn/ligl/papers/dynamic-view-icde23.pdf" target="_blank">Paper</a>]
+            </div>
+          </div>
+        </div>
+
+
+        <div class="pub" data-selected="true">
+          <div class="pub-left">
+            <img class="intro-img frame" src="images/hybridquery.png">
+          </div>
+          <div class="pub-right">
+            <div class="title">
+              Cost-based or learning-based? A hybrid query optimizer for query plan selection
+            </div>
+            <div class="authors">
+              <font style="font-size: 11pt;">
+                Xiang Yu, <b>Chengliang Chai</b>, Guoliang Li, Jiabin Liu
+              </font>
+            </div>
+            <div class="publish">
+              <span class="place">VLDB 2022</span>
+            </div>
+            <div class="tags">
+              [<a class="tag" href="https://dl.acm.org/doi/abs/10.14778/3565838.3565846" target="_blank">Paper</a>]
+              [<a class="tag" href="https://github.com/yxfish13/HyperQO" target="_blank">Code</a>]
+            </div>
+          </div>
+        </div>
+
+
+        <div class="pub" data-selected="true">
+          <div class="pub-left">
+            <img class="intro-img frame" src="images/coresets.png">
+          </div>
+          <div class="pub-right">
+            <div class="title">
+              Coresets over multiple tables for feature-rich and data-efficient machine learning
+            </div>
+            <div class="authors">
+              <font style="font-size: 11pt;">
+                Jiayi Wang, <b>Chengliang Chai</b>, Nan Tang, Jiabin Liu, Guoliang Li
+              </font>
+            </div>
+            <div class="publish">
+              <span class="place">VLDB 2022</span>
+            </div>
+            <div class="tags">
+              [<a class="tag" href="https://dl.acm.org/doi/abs/10.14778/3561261.3561267" target="_blank">Paper</a>]
+              [<a class="tag" href="https://github.com/for0nething/RECON" target="_blank">Code</a>]
+            </div>
+          </div>
+        </div>
+
+
+        <div class="pub" data-selected="true">
+          <div class="pub-left">
+            <img class="intro-img frame" src="images/DADER.png">
+          </div>
+          <div class="pub-right">
+            <div class="title">
+              DADER: hands-off entity resolution with domain adaptation
+            </div>
+            <div class="authors">
+              <font style="font-size: 11pt;">
+               Jianhong Tu, Xiaoyue Han, Ju Fan, Nan Tang, <b>Chengliang Chai</b>, Guoliang Li, Xiaoyong
+              </font>
+            </div>
+            <div class="publish">
+              <span class="place">VLDB 2022</span>
+            </div>
+            <div class="tags">
+              [<a class="tag" href="https://dl.acm.org/doi/abs/10.14778/3554821.3554870" target="_blank">Paper</a>]
+              [<a class="tag" href="https://pypi.org/project/dader/" target="_blank">Code</a>]
+            </div>
+          </div>
+        </div>
+
+
+        <div class="pub" data-selected="true">
+          <div class="pub-left">
+            <img class="intro-img frame" src="images/interactively.png">
+          </div>
+          <div class="pub-right">
+            <div class="title">
+              Interactively discovering and ranking desired tuples by data exploration
+            </div>
+            <div class="authors">
+              <font style="font-size: 11pt;">
+                Xuedi Qin, <b>Chengliang Chai</b>, Yuyu Luo, Tianyu Zhao, Nan Tang, Guoliang Li, Jianhua Feng, Xiang Yu, Mourad Ouzzani
+              </font>
+            </div>
+            <div class="publish">
+              <span class="place">VLDB 2022</span>
+            </div>
+            <div class="tags">
+              [<a class="tag" href="https://link.springer.com/article/10.1007/s00778-021-00714-0" target="_blank">Paper</a>]
+            </div>
+          </div>
+        </div>
+
+
+        <div class="pub" data-selected="true">
+          <div class="pub-left">
+            <img class="intro-img frame" src="images/learnedsqlgen.png">
+          </div>
+          <div class="pub-right">
+            <div class="title">
+              Learnedsqlgen: Constraint-aware sql generation using reinforcement learning
+            </div>
+            <div class="authors">
+              <font style="font-size: 11pt;">
+                Lixi Zhang, <b>Chengliang Chai</b>, Xuanhe Zhou, Guoliang Li
+              </font>
+            </div>
+            <div class="publish">
+              <span class="place">SIGMOD 2022</span>
+            </div>
+            <div class="tags">
+              [<a class="tag" href="https://dl.acm.org/doi/abs/10.1145/3514221.3526155" target="_blank">Paper</a>]
+            </div>
+          </div>
+        </div>
+
+
+        <div class="pub" data-selected="true">
+          <div class="pub-left">
+            <img class="intro-img frame" src="images/Domainadaption.png">
+          </div>
+          <div class="pub-right">
+            <div class="title">
+              Domain adaptation for deep entity resolution
+            </div>
+            <div class="authors">
+              <font style="font-size: 11pt;">
+                Jianhong Tu, Ju Fan, Nan Tang, Peng Wang, <b>Chengliang Chai</b>, Guoliang Li, Ruixue Fan, Xiaoyong Du
+              </font>
+            </div>
+            <div class="publish">
+              <span class="place">SIGMOD 2022</span>
+            </div>
+            <div class="tags">
+              [<a class="tag" href="https://dl.acm.org/doi/abs/10.1145/3514221.3517870" target="_blank">Paper</a>]
+              [<a class="tag" href="https://github.com/ruc-datalab/DADER" target="_blank">Code</a>]
+            </div>
+          </div>
+        </div>
+
+
+        <div class="pub" data-selected="true">
+          <div class="pub-left">
+            <img class="intro-img frame" src="images/RW-tree.png">
+          </div>
+          <div class="pub-right">
+            <div class="title">
+              Rw-tree: A learned workload-aware framework for r-tree construction
+            </div>
+            <div class="authors">
+              <font style="font-size: 11pt;">
+                Haowen Dong, <b>Chengliang Chai</b>, Yuyu Luo, Jiabin Liu, Jianhua Feng, Chaoqun Zhan
+              </font>
+            </div>
+            <div class="publish">
+              <span class="place">ICDE 2022</span>
+            </div>
+            <div class="tags">
+              [<a class="tag" href="https://ieeexplore.ieee.org/abstract/document/9835605/" target="_blank">Paper</a>]
+            </div>
+          </div>
+        </div>
+
+    
+
+        <div class="pub" data-selected="true">
+          <div class="pub-left">
+            <img class="intro-img frame" src="images/featureaugmentation.png">
+          </div>
+          <div class="pub-right">
+            <div class="title">
+              Feature augmentation with reinforcement learning
+            </div>
+            <div class="authors">
+              <font style="font-size: 11pt;">
+                Jiabin Liu, <b>Chengliang Chai</b>, Yuyu Luo, Yin Lou, Jianhua Feng, Nan Tang
+              </font>
+            </div>
+            <div class="publish">
+              <span class="place">ICDE 2022</span>
+            </div>
+            <div class="tags">
+              [<a class="tag" href="https://ieeexplore.ieee.org/abstract/document/10443970/" target="_blank">Paper</a>]
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="pub" data-selected="true">
+          <div class="pub-left">
+            <img class="intro-img frame" src="images/SERD.png">
+          </div>
+          <div class="pub-right">
+            <div class="title">
+              Synthesizing privacy preserving entity resolution datasets
+            </div>
+            <div class="authors">
+              <font style="font-size: 11pt;">
+                Xuedi Qinl, <b>Chengliang Chai</b>, Nan Tang, Jian Li, Yuyu Luo, Guoliang Li, Yaoyu Zhu
+              </font>
+            </div>
+            <div class="publish">
+              <span class="place">ICDE 2022</span>
+            </div>
+            <div class="tags">
+              [<a class="tag" href="https://ieeexplore.ieee.org/abstract/document/9835693/" target="_blank">Paper</a>]
+            </div>
+          </div>
+        </div>
+
+
+        <div class="pub" data-selected="true">
+          <div class="pub-left">
+            <img class="intro-img frame" src="images/RNE.png">
+          </div>
+          <div class="pub-right">
+            <div class="title">
+              RNE: computing shortest paths using road network embedding
+            </div>
+            <div class="authors">
+              <font style="font-size: 11pt;">
+                Tianyu Zhao, Shuai Huang, Yong Wang, <b>Chengliang Chai</b>, Guoliang Li
+              </font>
+            </div>
+            <div class="publish">
+              <span class="place">VLDB 2022</span>
+            </div>
+            <div class="tags">
+              [<a class="tag" href="https://link.springer.com/article/10.1007/s00778-021-00705-1" target="_blank">Paper</a>]
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="pub" data-selected="true">
+          <div class="pub-left">
+            <img class="intro-img frame" src="images/LQO.png">
+          </div>
+          <div class="pub-right">
+            <div class="title">
+              Learned Query Optimizer: At the Forefront of AI-Driven Databases
+            </div>
+            <div class="authors">
+              <font style="font-size: 11pt;">
+                Rong Zhu, Ziniu Wu, <b>Chengliang Chai</b>, Andreas Pfadler, Bolin Ding, Guoliang Li, Jingren Zhou
+              </font>
+            </div>
+            <div class="publish">
+              <span class="place">EDBT 2022</span>
+            </div>
+            <div class="tags">
+              [<a class="tag" href="https://openproceedings.org/2022/conf/edbt/tutorial-1.pdf" target="_blank">Paper</a>]
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="pub" data-selected="true">
+          <div class="pub-left">
+            <img class="intro-img frame" src="images/selective.png">
+          </div>
+          <div class="pub-right">
+            <div class="title">
+              Selective data acquisition in the wild for model charging
+            </div>
+            <div class="authors">
+              <font style="font-size: 11pt;">
+                <b>Chengliang Chai</b>, Jiabin Liu, Nan Tang, Guoliang Li, Yuyu Luo
+              </font>
+            </div>
+            <div class="publish">
+              <span class="place">VLDB 2022</span>
+            </div>
+            <div class="tags">
+              [<a class="tag" href="https://dl.acm.org/doi/abs/10.14778/3523210.3523223" target="_blank">Paper</a>]
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="pub" data-selected="true">
+          <div class="pub-left">
+            <img class="intro-img frame" src="images/dm4ml.png">
+          </div>
+          <div class="pub-right">
+            <div class="title">
+              Data management for machine learning: A survey
+            </div>
+            <div class="authors">
+              <font style="font-size: 11pt;">
+                <b>Chengliang Chai</b>, Jiayi Wang, Yuyu Luo, Zeping Niu, Guoliang Li
+              </font>
+            </div>
+            <div class="publish">
+              <span class="place">TKDE 2022</span>
+            </div>
+            <div class="tags">
+              [<a class="tag" href="https://ieeexplore.ieee.org/abstract/document/9705125/" target="_blank">Paper</a>]
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="pub" data-selected="false">
+          <div class="pub-left">
+            <img class="intro-img frame" src="images/AIphaQO.png">
+          </div>
+          <div class="pub-right">
+            <div class="title">
+              AlphaQO: Robust Learned Query Optimizer
+            </div>
+            <div class="authors">
+              <font style="font-size: 11pt;">
+                Xiang Yu, <b>Chengliang Chai</b>, Xinning Zhang, Nan Tang, Ji Sun, Guoliang Li
+              </font>
+            </div>
+            <div class="publish">
+              <span class="place">IJSI 2022</span>
+            </div>
+            <div class="tags">
+              [<a class="tag" href="https://search.ebscohost.com/login.aspx?direct=true&profile=ehost&scope=site&authtype=crawler&jrnl=16737288&AN=157169273&h=Qv1U2TsMmlaI21l9elvUJe%2FwWOa4jGPll%2F8oD8eJmn7ZvBvZIanTlW1Zky4U5w4pb%2FhiiYaGfIA%2BAcPDHJKYpw%3D%3D&crl=c" target="_blank">Paper</a>]
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="pub" data-selected="true">
+          <div class="pub-left">
+            <img class="intro-img frame" src="images/ncnet.png">
+          </div>
+          <div class="pub-right">
+            <div class="title">
+              Natural language to visualization by neural machine translation
+            </div>
+            <div class="authors">
+              <font style="font-size: 11pt;">
+                Yuyu Luo, Nan Tang, Guoliang Li, Jiawei Tang, <b>Chengliang Chai</b>, Xuedi Qin
+              </font>
+            </div>
+            <div class="publish">
+              <span class="place">TVCG 2021</span>
+            </div>
+            <div class="tags">
+              [<a class="tag" href="https://ieeexplore.ieee.org/abstract/document/9617561/" target="_blank">Paper</a>]
+              [<a class="tag" href="https://github.com/HKUSTDial/ncNet" target="_blank">Code</a>]
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="pub" data-selected="true">
+          <div class="pub-left">
+            <img class="intro-img frame" src="images/FACE.png">
+          </div>
+          <div class="pub-right">
+            <div class="title">
+              FACE: A normalizing flow based cardinality estimator
+            </div>
+            <div class="authors">
+              <font style="font-size: 11pt;">
+                Jiayi Wang, <b>Chengliang Chai</b>, Jiabin Liu, Guoliang Li
+              </font>
+            </div>
+            <div class="publish">
+              <span class="place">VLDB 2021</span>
+            </div>
+            <div class="tags">
+              [<a class="tag" href="https://dl.acm.org/doi/abs/10.14778/3485450.3485458" target="_blank">Paper</a>]
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="pub" data-selected="true">
+          <div class="pub-left">
+            <img class="intro-img frame" src="images/learnedqueryrewrite.png">
+          </div>
+          <div class="pub-right">
+            <div class="title">
+              A learned query rewrite system using monte carlo tree search
+            </div>
+            <div class="authors">
+              <font style="font-size: 11pt;">
+                Xuanhe Zhou, Guoliang Li, <b>Chengliang Chai</b>, Jianhua Feng
+              </font>
+            </div>
+            <div class="publish">
+              <span class="place">VLDB 2021</span>
+            </div>
+            <div class="tags">
+              [<a class="tag" href="https://dl.acm.org/doi/abs/10.14778/3485450.3485456" target="_blank">Paper</a>]
+              [<a class="tag" href="https://github.com/zhouxh19/LearnedRewrite" target="_blank">Code</a>]
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="pub" data-selected="true">
+          <div class="pub-left">
+            <img class="intro-img frame" src="images/autodata.png">
+          </div>
+          <div class="pub-right">
+            <div class="title">
+              Automatic data acquisition for deep learning
+            </div>
+            <div class="authors">
+              <font style="font-size: 11pt;">
+                Jiabin Liu, Fu Zhu, <b>Chengliang Chai</b>, Yuyu Luo, Nan Tang
+              </font>
+            </div>
+            <div class="publish">
+              <span class="place">VLDB 2021</span>
+            </div>
+            <div class="tags">
+              [<a class="tag" href="https://dl.acm.org/doi/abs/10.14778/3476311.3476333" target="_blank">Paper</a>]
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="pub" data-selected="true">
+          <div class="pub-left">
+            <img class="intro-img frame" src="images/NL2VIS.png">
+          </div>
+          <div class="pub-right">
+            <div class="title">
+              Synthesizing natural language to visualization (NL2VIS) benchmarks from NL2SQL benchmarks
+            </div>
+            <div class="authors">
+              <font style="font-size: 11pt;">
+                Yuyu Luo, Nan Tang, Guoliang Li, <b>Chengliang Chai</b>, Wenbo Li, Xuedi Qin
+              </font>
+            </div>
+            <div class="publish">
+              <span class="place">SIGMOD 2021</span>
+            </div>
+            <div class="tags">
+              [<a class="tag" href="https://dl.acm.org/doi/abs/10.1145/3448016.3457261" target="_blank">Paper</a>]
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="pub" data-selected="true">
+          <div class="pub-left">
+            <img class="intro-img frame" src="images/rankingdesired.png">
+          </div>
+          <div class="pub-right">
+            <div class="title">
+              Ranking desired tuples by database exploration
+            </div>
+            <div class="authors">
+              <font style="font-size: 11pt;">
+                Xuedi Qin, <b>Chengliang Chai</b>, Yuyu Luo, Tianyu Zhao, Nan Tang, Guoliang Li, Jianhua Feng, Xiang Yu, Mourad Ouzzani
+              </font>
+            </div>
+            <div class="publish">
+              <span class="place">ICDE 2021</span>
+            </div>
+            <div class="tags">
+              [<a class="tag" href="https://ieeexplore.ieee.org/abstract/document/9458918/" target="_blank">Paper</a>]
+            </div>
+          </div>
+        </div>
+
+
+
+
+        <div class="pub" data-selected="true">
+          <div class="pub-left">
+            <img class="intro-img frame" src="images/empowering.png">
+          </div>
+          <div class="pub-right">
+            <div class="title">
+              Empowering natural language to visualization neural translation using synthesized benchmarks
+            </div>
+            <div class="authors">
+              <font style="font-size: 11pt;">
+                Yuyu Luo, Jiawei Tang, Guoliang Li, <b>Chengliang Chai</b>
+              </font>
+            </div>
+            <div class="publish">
+              <span class="place">IEEE VIS 2021</span>
+            </div>
+            <div class="tags">
+              [<a class="tag" href="https://ieeevis.b-cdn.net/vis_2021/posters/v-vis-posters-1003-summary.pdf" target="_blank">Paper</a>]
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+        <div class="pub" data-selected="false">
+          <div class="pub-left">
+            <img class="intro-img frame" src="images/atreebased.png">
+          </div>
+          <div class="pub-right">
+            <div class="title">
+              A tree-based indexing approach for diverse textual similarity search
+            </div>
+            <div class="authors">
+              <font style="font-size: 11pt;">
+                Minghe Yu, <b>Chengliang Chai</b>, Ge Yu
+              </font>
+            </div>
+            <div class="publish">
+              <span class="place">IEEE Access 2020</span>
+            </div>
+            <div class="tags">
+              [<a class="tag" href="https://ieeexplore.ieee.org/abstract/document/9187345/" target="_blank">Paper</a>]
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="pub" data-selected="true">
+          <div class="pub-left">
+            <img class="intro-img frame" src="images/visclean.png">
+          </div>
+          <div class="pub-right">
+            <div class="title">
+              Visclean: Interactive cleaning for progressive visualization
+            </div>
+            <div class="authors">
+              <font style="font-size: 11pt;">
+                Yuyu Luo, <b>Chengliang Chai</b>, Xuedi Qin, Nan Tang, Guoliang Li
+              </font>
+            </div>
+            <div class="publish">
+              <span class="place">VLDB 2020</span>
+            </div>
+            <div class="tags">
+              [<a class="tag" href="https://dl.acm.org/doi/abs/10.14778/3415478.3415484" target="_blank">Paper</a>]
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="pub" data-selected="true">
+          <div class="pub-left">
+            <img class="intro-img frame" src="images/interactivelydiscovering.png">
+          </div>
+          <div class="pub-right">
+            <div class="title">
+              Interactively discovering and ranking desired tuples without writing sql queries
+            </div>
+            <div class="authors">
+              <font style="font-size: 11pt;">
+                Xuedi Qin, <b>Chengliang Chai</b>, Yuyu Luo, Nan Tang, Guoliang Li
+              </font>
+            </div>
+            <div class="publish">
+              <span class="place">SIGMOD 2020</span>
+            </div>
+            <div class="tags">
+              [<a class="tag" href="https://dl.acm.org/doi/abs/10.1145/3318464.3384695" target="_blank">Paper</a>]
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="pub" data-selected="true">
+          <div class="pub-left">
+            <img class="intro-img frame" src="images/humaninthe.png">
+          </div>
+          <div class="pub-right">
+            <div class="title">
+              Human-in-the-loop outlier detection
+            </div>
+            <div class="authors">
+              <font style="font-size: 11pt;">
+                <b>Chengliang Chai</b>, Lei Cao, Guoliang Li, Jian Li, Yuyu Luo, Samuel Madden
+              </font>
+            </div>
+            <div class="publish">
+              <span class="place">SIGMOD 2020</span>
+            </div>
+            <div class="tags">
+              [<a class="tag" href="https://dl.acm.org/doi/abs/10.1145/3318464.3389772" target="_blank">Paper</a>]
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="pub" data-selected="true">
+          <div class="pub-left">
+            <img class="intro-img frame" src="images/ahumaninthetop.png">
+          </div>
+          <div class="pub-right">
+            <div class="title">
+              Human-in-the-loop Techniques in Machine Learning
+            </div>
+            <div class="authors">
+              <font style="font-size: 11pt;">
+                <b>Chengliang Chai</b>, Guoliang Li
+              </font>
+            </div>
+            <div class="publish">
+              <span class="place">TKDE 2020</span>
+            </div>
+            <div class="tags">
+              [<a class="tag" href="https://scholar.archive.org/work/foxzmhd53bcfdexao3bglzbdui/access/wayback/http://sites.computer.org/debull/A20sept/p37.pdf" target="_blank">Paper</a>]
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="pub" data-selected="true">
+          <div class="pub-left">
+            <img class="intro-img frame" src="images/DBmeetsAI.png">
+          </div>
+          <div class="pub-right">
+            <div class="title">
+              Database meets artificial intelligence: A survey
+            </div>
+            <div class="authors">
+              <font style="font-size: 11pt;">
+                Xuanhe Zhou, <b>Chengliang Chai</b>, Guoliang Li, Ji Sun
+              </font>
+            </div>
+            <div class="publish">
+              <span class="place">TKDE 2020</span>
+            </div>
+            <div class="tags">
+              [<a class="tag" href="https://ieeexplore.ieee.org/abstract/document/9094012/" target="_blank">Paper</a>]
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="pub" data-selected="true">
+          <div class="pub-left">
+            <img class="intro-img frame" src="images/crowdsourcingbased.png">
+          </div>
+          <div class="pub-right">
+            <div class="title">
+              Crowdsourcing-based data extraction from visualization charts
+            </div>
+            <div class="authors">
+              <font style="font-size: 11pt;">
+                <b>Chengliang Chai</b>, Guoliang Li, Ju Fan, Yuyu Luo
+              </font>
+            </div>
+            <div class="publish">
+              <span class="place">ICDE 2020</span>
+            </div>
+            <div class="tags">
+              [<a class="tag" href="https://ieeexplore.ieee.org/abstract/document/9101527/" target="_blank">Paper</a>]
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="pub" data-selected="true">
+          <div class="pub-left">
+            <img class="intro-img frame" src="images/outdatedfact.png">
+          </div>
+          <div class="pub-right">
+            <div class="title">
+              Outdated fact detection in knowledge bases
+            </div>
+            <div class="authors">
+              <font style="font-size: 11pt;">
+                Shuang Hao, <b>Chengliang Chai</b>, Guoliang Li, Nan Tang, Ning Wang, Xiang Yu
+              </font>
+            </div>
+            <div class="publish">
+              <span class="place">ICDE 2020</span>
+            </div>
+            <div class="tags">
+              [<a class="tag" href="https://ieeexplore.ieee.org/abstract/document/9101535/" target="_blank">Paper</a>]
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="pub" data-selected="true">
+          <div class="pub-left">
+            <img class="intro-img frame" src="images/RTOS.png">
+          </div>
+          <div class="pub-right">
+            <div class="title">
+              Reinforcement learning with tree-lstm for join order selection
+            </div>
+            <div class="authors">
+              <font style="font-size: 11pt;">
+                Xiang Yu, Guoliang Li, <b>Chengliang Chai</b>, Nan Tang
+              </font>
+            </div>
+            <div class="publish">
+              <span class="place">ICDE 2020</span>
+            </div>
+            <div class="tags">
+              [<a class="tag" href="https://ieeexplore.ieee.org/abstract/document/9101694/" target="_blank">Paper</a>]
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="pub" data-selected="true">
+          <div class="pub-left">
+            <img class="intro-img frame" src="images/interactivecleaning.png">
+          </div>
+          <div class="pub-right">
+            <div class="title">
+              Interactive cleaning for progressive visualization through composite questions
+            </div>
+            <div class="authors">
+              <font style="font-size: 11pt;">
+                Yuyu Luo, <b>Chengliang Chai</b>, Xuedi Qin, Nan Tang, Guoliang Li
+              </font>
+            </div>
+            <div class="publish">
+              <span class="place">ICDE 2020</span>
+            </div>
+            <div class="tags">
+              [<a class="tag" href="https://ieeexplore.ieee.org/abstract/document/9101184/" target="_blank">Paper</a>]
+            </div>
+          </div>
+        </div>
+
+
+
+
+        <div class="pub" data-selected="true">
+          <div class="pub-left">
+            <img class="intro-img frame" src="images/deepeye.png">
+          </div>
+          <div class="pub-right">
+            <div class="title">
+              Steerable self-driving data visualization
+            </div>
+            <div class="authors">
+              <font style="font-size: 11pt;">
+                Yuyu Luo, Xuedi Qin, <b>Chengliang Chai</b>, Nan Tang, Guoliang Li, Wenbo Li
+              </font>
+            </div>
+            <div class="publish">
+              <span class="place">TKDE 2020</span>
+            </div>
+            <div class="tags">
+              [<a class="tag" href="https://ieeexplore.ieee.org/abstract/document/9039632/" target="_blank">Paper</a>]
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="pub" data-selected="true">
+          <div class="pub-left">
+            <img class="intro-img frame" src="images/crowdchart.png">
+          </div>
+          <div class="pub-right">
+            <div class="title">
+              Crowdchart: Crowdsourced data extraction from visualization charts
+            </div>
+            <div class="authors">
+              <font style="font-size: 11pt;">
+                <b>Chengliang Chai</b>, Guoliang Li, Ju Fan, Yuyu Luo
+              </font>
+            </div>
+            <div class="publish">
+              <span class="place">TKDE 2020</span>
+            </div>
+            <div class="tags">
+              [<a class="tag" href="https://ieeexplore.ieee.org/abstract/document/8989823/" target="_blank">Paper</a>]
+            </div>
+          </div>
+        </div>
+
+
+
+
+        <div class="pub" data-selected="true">
+          <div class="pub-left">
+            <img class="intro-img frame" src="images/manually.png">
+          </div>
+          <div class="pub-right">
+            <div class="title">
+              Manually detecting errors for data cleaning using adaptive crowdsourcing strategies
+            </div>
+            <div class="authors">
+              <font style="font-size: 11pt;">
+                Haojun Zhang, <b>Chengliang Chai</b>, An Hai Doan, Paraschos Koutris, Esteban Arcaute
+              </font>
+            </div>
+            <div class="publish">
+              <span class="place">EDBT 2020</span>
+            </div>
+            <div class="tags">
+              [<a class="tag" href="https://pure.bit.edu.cn/zh/publications/manually-detecting-errors-for-data-cleaning-using-adaptive-crowds" target="_blank">Paper</a>]
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="pub" data-selected="true">
+          <div class="pub-left">
+            <img class="intro-img frame" src="images/towards.png">
+          </div>
+          <div class="pub-right">
+            <div class="title">
+              Towards automatic mathematical exercise solving
+            </div>
+            <div class="authors">
+              <font style="font-size: 11pt;">
+                Tianyu Zhao, <b>Chengliang Chai</b>, Yuyu Luo, Jianhua Feng, Yan Huang, Songfan Yang, Haitao Yuan, Haoda Li, Kaiyu Li, Fu Zhu, Kang Pan
+              </font>
+            </div>
+            <div class="publish">
+              <span class="place">DSE 2019</span>
+            </div>
+            <div class="tags">
+              [<a class="tag" href="https://link.springer.com/article/10.1007/s41019-019-00098-w" target="_blank">Paper</a>]
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="pub" data-selected="true">
+          <div class="pub-left">
+            <img class="intro-img frame" src="images/AnalyticDB.png">
+          </div>
+          <div class="pub-right">
+            <div class="title">
+              AnalyticDB: real-time OLAP database system at Alibaba cloud
+            </div>
+            <div class="authors">
+              <font style="font-size: 11pt;">
+                Chaoqun Zhan, Maomeng Su, Chuangxian Wei, Xiaoqiang Peng, Liang Lin, Sheng Wang, Zhe Chen, Feifei Li, Yue Pan, Fang Zheng, <b>Chengliang Chai</b>
+              </font>
+            </div>
+            <div class="publish">
+              <span class="place">VLDB 2019</span>
+            </div>
+            <div class="tags">
+              [<a class="tag" href="https://dl.acm.org/doi/abs/10.14778/3352063.3352124" target="_blank">Paper</a>]
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="pub" data-selected="true">
+          <div class="pub-left">
+            <img class="intro-img frame" src="images/crowdsourcingdataba.png">
+          </div>
+          <div class="pub-right">
+            <div class="title">
+              Crowdsourcing database systems: Overview and challenges
+            </div>
+            <div class="authors">
+              <font style="font-size: 11pt;">
+                <b>Chengliang Chai</b>, Ju Fan, Guoliang Li, Jiannan Wang, Yudian Zheng
+              </font>
+            </div>
+            <div class="publish">
+              <span class="place">ICDE 2019</span>
+            </div>
+            <div class="tags">
+              [<a class="tag" href="https://ieeexplore.ieee.org/abstract/document/8731525/" target="_blank">Paper</a>]
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="pub" data-selected="true">
+          <div class="pub-left">
+            <img class="intro-img frame" src="images/apartial.png">
+          </div>
+          <div class="pub-right">
+            <div class="title">
+              A partial-order-based framework for cost-effective crowdsourced entity resolution
+            </div>
+            <div class="authors">
+              <font style="font-size: 11pt;">
+                <b>Chengliang Chai</b>, Guoliang Li, Jian Li, Dong Deng, Jianhua Feng
+              </font>
+            </div>
+            <div class="publish">
+              <span class="place">VLDB 2018</span>
+            </div>
+            <div class="tags">
+              [<a class="tag" href="https://link.springer.com/article/10.1007/s00778-018-0509-6" target="_blank">Paper</a>]
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="pub" data-selected="true">
+          <div class="pub-left">
+            <img class="intro-img frame" src="images/CDB.png">
+          </div>
+          <div class="pub-right">
+            <div class="title">
+              CDB: A crowd-powered database system
+            </div>
+            <div class="authors">
+              <font style="font-size: 11pt;">
+                Guoliang Li, <b>Chengliang Chai</b>, Ju Fan, Xueping Weng, Jian Li, Yudian Zheng, Yuanbing Li, Xiang Yu, Xiaohang Zhang, Haitao Yuan
+              </font>
+            </div>
+            <div class="publish">
+              <span class="place">VLDB 2018</span>
+            </div>
+            <div class="tags">
+              [<a class="tag" href="https://dl.acm.org/doi/abs/10.14778/3229863.3236226" target="_blank">Paper</a>]
+              [<a class="tag" href="https://github.com/TsinghuaDatabaseGroup/CDB" target="_blank">Code</a>]
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="pub" data-selected="true">
+          <div class="pub-left">
+            <img class="intro-img frame" src="images/Crowd-powered-data-mining.png">
+          </div>
+          <div class="pub-right">
+            <div class="title">
+              Crowd-powered data mining
+            </div>
+            <div class="authors">
+              <font style="font-size: 11pt;">
+                <b>Chengliang Chai</b>, Ju Fan, Guoliang Li, Jiannan Wang, Yudian Zheng
+              </font>
+            </div>
+            <div class="publish">
+              <span class="place">Arxiv 2018</span>
+            </div>
+            <div class="tags">
+              [<a class="tag" href="https://arxiv.org/abs/1806.04968" target="_blank">Paper</a>]
+              [<a class="tag" href="https://www.youtube.com/watch?v=ADAp7XMGtjw" target="_blank">Video</a>]
+              [<a class="tag" href="https://www.youtube.com/watch?v=-45JkIVYhvo" target="_blank">Video</a>]
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="pub" data-selected="true">
+          <div class="pub-left">
+            <img class="intro-img frame" src="images/incentivebased.png">
+          </div>
+          <div class="pub-right">
+            <div class="title">
+              Incentive-based entity collection using crowdsourcing
+            </div>
+            <div class="authors">
+              <font style="font-size: 11pt;">
+                <b>Chengliang Chai</b>, Ju Fan, Guoliang Li
+              </font>
+            </div>
+            <div class="publish">
+              <span class="place">ICDE 2018</span>
+            </div>
+            <div class="tags">
+              [<a class="tag" href="https://ieeexplore.ieee.org/abstract/document/8509260/" target="_blank">Paper</a>]
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="pub" data-selected="true">
+          <div class="pub-left">
+            <img class="intro-img frame" src="images/CDBoptimize.png">
+          </div>
+          <div class="pub-right">
+            <div class="title">
+              CDB: optimizing queries with crowd-based selections and joins
+            </div>
+            <div class="authors">
+              <font style="font-size: 11pt;">
+                Guoliang Li, <b>Chengliang Chai</b>, Ju Fan, Xueping Weng, Jian Li, Yudian Zheng, Yuanbing Li, Xiang Yu, Xiaohang Zhang, Haitao Yuan
+              </font>
+            </div>
+            <div class="publish">
+              <span class="place">SIGMOD 2017</span>
+            </div>
+            <div class="tags">
+              [<a class="tag" href="https://dl.acm.org/doi/abs/10.1145/3035918.3064036" target="_blank">Paper</a>]
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="pub" data-selected="true">
+          <div class="pub-left">
+            <img class="intro-img frame" src="images/entityresolution.png">
+          </div>
+          <div class="pub-right">
+            <div class="title">
+              Cost-effective crowdsourced entity resolution: A partial-order approach
+            </div>
+            <div class="authors">
+              <font style="font-size: 11pt;">
+                <b>Chengliang Chai</b>, Guoliang Li, Jian Li, Dong Deng, Jianhua Feng
+              </font>
+            </div>
+            <div class="publish">
+              <span class="place">SIGMOD 2016</span>
+            </div>
+            <div class="tags">
+              [<a class="tag" href="https://dl.acm.org/doi/abs/10.1145/2882903.2915252" target="_blank">Paper</a>]
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="pub" data-selected="true">
+          <div class="pub-left">
+            <img class="intro-img frame" src="images/entityresolution.png">
+          </div>
+          <div class="pub-right">
+            <div class="title">
+              Natural Language to SQL: State of the Art and Open Problems
+            </div>
+            <div class="authors">
+              <font style="font-size: 11pt;">
+                Yuyu Luo, Guoliang Li, Ju Fan, <b>Chengliang Chai</b>, Nan Tang
+              </font>
+            </div>
+            <div class="publish">
+              <span class="place">VLDB</span>
+            </div>
+            <div class="tags">
+              [<a class="tag" href="https://dbgroup.cs.tsinghua.edu.cn/ligl/papers/VLDB25-NL2SQL.pdf" target="_blank">Paper</a>]
+              [<a class="tag" href="https://github.com/HKUSTDial/NL2SQL_Handbook" target="_blank">Code</a>]
+            </div>
+          </div>
+        </div>
+
+
+        <div class="pub" data-selected="true">
+          <div class="pub-left">
+            <img class="intro-img frame" src="images/retrieval.png">
+          </div>
+          <div class="pub-right">
+            <div class="title">
+              Retrieval Augmented Imputation Using Data Lake Tables
+            </div>
+            <div class="authors">
+              <font style="font-size: 11pt;">
+                Chenyu Yang, Yuyu Luo, Chuanxuan Cui, Ju Fan, <b>Chengliang Chai</b>, Nan Tang
+              </font>
+            </div>
+            <div class="publish">
+              <span class="place"></span>
+            </div>
+            <div class="tags">
+              [<a class="tag" href="https://openreview.net/forum?id=EyW92b6DyY" target="_blank">Paper</a>]
+            </div>
+          </div>
+        </div>
+
+
+        <div class="pub" data-selected="true">
+          <div class="pub-left">
+            <img class="intro-img frame" src="images/GnnMv.png">
+          </div>
+          <div class="pub-right">
+            <div class="title">
+              A technical report on dynamic materialized view management using graph neural network
+            </div>
+            <div class="authors">
+              <font style="font-size: 11pt;">
+                Yue Han, <b>Chengliang Chai</b>, Jiabin Liu, Guoliang Li, Chuangxian Wei, Chaoqun Zhan
+              </font>
+            </div>
+            <div class="publish">
+              <span class="place">ICDE</span>
+            </div>
+            <div class="tags">
+              [<a class="tag" href="https://dbgroup.cs.tsinghua.edu.cn/ligl/papers/gnnmv-tr.pdf" target="_blank">Paper</a>]
+            </div>
+          </div>
+        </div>
+	    
+	      
+      </div>
+    </div>
+
+    
+
+  </div>
+</div>
+</div>
+	
+<!-- JavaScript to handle button clicks -->
+<script>
+  // Get the buttons and publications
+  const showSelectedBtn = document.getElementById('show-selected-btn');
+  const showAllBtn = document.getElementById('show-all-btn');
+  const publications = document.querySelectorAll('.pub');
+
+  // Add event listener to 'Show Selected Publication' button
+  showSelectedBtn.addEventListener('click', function() {
+    publications.forEach(pub => {
+      if (pub.getAttribute('data-selected') === 'true') {
+        pub.style.display = 'block';  // Show selected publication
+      } else {
+        pub.style.display = 'none';  // Hide other publications
+      }
+    });
+  });
+
+  // Add event listener to 'Show All' button
+  showAllBtn.addEventListener('click', function() {
+    publications.forEach(pub => {
+      pub.style.display = 'block';  // Show all publications
+    });
+  });
+</script>
+
+<script>
+  const repos = [
+    { owner: "HKUSTDial", repo: "LEAD", starId: "star-count", forkId: "fork-count" },
+    { owner: "DB-121143", repo: "LakeBench", starId: "star-count-2", forkId: "fork-count-2" },
+    { owner: "ruc-datalab", repo: "Haipipe", starId: "star-count-3", forkId: "fork-count-3" },
+    { owner: "Shuang-H", repo: "outdated-fact-detection", starId: "star-count-4", forkId: "fork-count-4" },
+    { owner: "yxfish13", repo: "HyperQO", starId: "star-count-5", forkId: "fork-count-5" },
+    { owner: "for0nething", repo: "RECON", starId: "star-count-6", forkId: "fork-count-6" },
+    { owner: "ruc-datalab", repo: "DADER", starId: "star-count-7", forkId: "fork-count-7" },
+    { owner: "HKUSTDial", repo: "ncNet", starId: "star-count-8", forkId: "fork-count-8" },
+    { owner: "zhouxh19", repo: "LearnedRewrite", starId: "star-count-9", forkId: "fork-count-9" },
+    { owner: "TsinghuaDatabaseGroup", repo: "CDB", starId: "star-count-10", forkId: "fork-count-10" },
+    { owner: "HKUSTDial", repo: "NL2SQL_Handbook", starId: "star-count-11", forkId: "fork-count-11" }
+    
+  ];
+
+  async function loadGitHubStats() {
+    for (const { owner, repo, starId, forkId } of repos) {
+      try {
+        const res = await fetch(`https://api.github.com/repos/${owner}/${repo}`);
+        if (!res.ok) throw new Error("GitHub API error");
+        const data = await res.json();
+        document.getElementById(starId).innerText = data.stargazers_count ?? "–";
+        document.getElementById(forkId).innerText = data.forks_count ?? "–";
+      } catch (e) {
+        console.error(`Failed to load stats for ${owner}/${repo}`, e);
+        document.getElementById(starId).innerText = "–";
+        document.getElementById(forkId).innerText = "–";
+      }
+    }
+  }
+
+  loadGitHubStats();
+</script>
+
+
+<div class="wrapper">
+  <div id="codebase" class="bio">
+    <div class="bio-body" style="overflow:hidden;">
+      <h1 class="md-heading text-left" style="padding-top: 56px; margin-top: -56x;">
+        <i class="fa fa-tasks" aria-hidden="true"></i>
+        GitHub
+      </h1>  
+      <div class="card-container">
+
+        <div class="github-card">
+          <div>
+            <a class="repo-link" href="https://github.com/HKUSTDial/LEAD" target="_blank">
+              LEAD: Iterative Data Selection for Efficient LLM Instruction Tuning
+            </a>
+            <span class="label">Project</span>
+          </div>
+          <div class="description">
+           LEAD, an efficient iterative data selection framework that accurately estimates sample utility entirely within the standard training loop, eliminating the need for costly additional model inference.
+          </div>
+          <div class="meta">
+            <div class="dot"></div>
+            <div>Python</div>
+            <a href="https://github.com/HKUSTDial/LEAD/stargazers" target="_blank">
+              <svg fill="currentColor" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+                <path d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 
+                14.5L369.8 316.2 115.9 353.1c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 
+                179.1-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 
+                119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 
+                26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 
+                8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3z"></path>
+              </svg>
+              Star &nbsp;  <span id="star-count">–</span>
+            </a>
+            <a href="https://github.com/HKUSTDial/LEAD/network/members" target="_blank">
+              <svg fill="currentColor" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                <path d="M14 4a2 2 0 1 0-2.47 1.94V7a.48.48 0 0 1-.27.44L8.49 
+                8.88l-2.76-1.4A.49.49 0 0 1 5.46 7V5.94a2 2 0 1 0-1 
+                0V7a1.51 1.51 0 0 0 .82 1.34L8 
+                9.74v1.32a2 2 0 1 0 1 0V9.74l2.7-1.36A1.49 
+                1.49 0 0 0 12.52 7V5.92A2 2 0 0 0 14 
+                4zM4 4a1 1 0 1 1 2 0 1 1 0 0 1-2 
+                0zm5.47 9a1 1 0 1 1-2 0 1 1 0 0 
+                1 2 0zM12 5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z">
+                </path>
+              </svg>
+              Fork &nbsp; <span id="fork-count">–</span>
+            </a>
+          </div>
+        </div>
+        
+        <div class="github-card">
+          <div>
+            <a class="repo-link" href="https://github.com/DB-121143/LakeBench" target="_blank">
+              LakeBench: A Benchmark for Discovering Joinable and Unionable Tables in Data Lakes
+            </a>
+            <span class="label">Project</span>
+          </div>
+          <div class="description">
+             LakeBench is a large-scale benchmark designed to test the mettle of table discovery methods on a much larger scale, providing a more comprehensive and realistic evaluation platform for the field, including finance, retail, manufacturing, energy, media, and more.
+          </div>
+          <div class="meta">
+            <div class="dot"></div>
+            <div>Markdown</div>
+            <a href="https://github.com/DB-121143/LakeBench/stargazers" target="_blank">
+              <svg fill="currentColor" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+                <path d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 
+                14.5L369.8 316.2 115.9 353.1c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 
+                179.1-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 
+                119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 
+                26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 
+                8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3z"></path>
+              </svg>
+              Star &nbsp;<span id="star-count-2">–</span>
+            </a>
+            <a href="https://github.com/DB-121143/LakeBench/network/members" target="_blank">
+              <svg fill="currentColor" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                <path d="M14 4a2 2 0 1 0-2.47 1.94V7a.48.48 0 0 1-.27.44L8.49 
+                8.88l-2.76-1.4A.49.49 0 0 1 5.46 7V5.94a2 2 0 1 0-1 
+                0V7a1.51 1.51 0 0 0 .82 1.34L8 
+                9.74v1.32a2 2 0 1 0 1 0V9.74l2.7-1.36A1.49 
+                1.49 0 0 0 12.52 7V5.92A2 2 0 0 0 14 
+                4zM4 4a1 1 0 1 1 2 0 1 1 0 0 1-2 
+                0zm5.47 9a1 1 0 1 1-2 0 1 1 0 0 
+                1 2 0zM12 5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z">
+                </path>
+              </svg>
+              Fork &nbsp;<span id="fork-count-2">–</span>
+            </a>
+          </div>
+        </div>
+        
+        <!-- Card 4 -->
+        <div class="github-card">
+          <div>
+            <a class="repo-link" href="https://github.com/ruc-datalab/Haipipe" target="_blank">
+              Haipipe: Combining human-generated and machine-generated pipelines for data preparation
+            </a>
+            <span class="label">Project</span>
+          </div>
+          <div class="description">
+            Given a human-generated pipeline (HI-pipeline) for an ML task, HAIPipe introduces a reinforcement learning based approach to search an optimized ML-generated pipeline (ML-pipeline) and adopts an enumeration-sampling strategy to carefully select the best performing combined pipeline(HAI-pipeline).
+          </div>
+          <div class="meta">
+            <div class="dot"></div>
+            <div>Python</div>
+            <a href="https://github.com/ruc-datalab/Haipipe/stargazers" target="_blank">
+              <svg fill="currentColor" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+                <path d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 
+                14.5L369.8 316.2 115.9 353.1c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 
+                179.1-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 
+                119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 
+                26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 
+                8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3z"></path>
+              </svg>
+              Star &nbsp;<span id="star-count-3">–</span>
+            </a>
+            <a href="https://github.com/ruc-datalab/Haipipe/network/members" target="_blank">
+              <svg fill="currentColor" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                <path d="M14 4a2 2 0 1 0-2.47 1.94V7a.48.48 0 0 1-.27.44L8.49 
+                8.88l-2.76-1.4A.49.49 0 0 1 5.46 7V5.94a2 2 0 1 0-1 
+                0V7a1.51 1.51 0 0 0 .82 1.34L8 
+                9.74v1.32a2 2 0 1 0 1 0V9.74l2.7-1.36A1.49 
+                1.49 0 0 0 12.52 7V5.92A2 2 0 0 0 14 
+                4zM4 4a1 1 0 1 1 2 0 1 1 0 0 1-2 
+                0zm5.47 9a1 1 0 1 1-2 0 1 1 0 0 
+                1 2 0zM12 5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z">
+                </path>
+              </svg>
+              Fork &nbsp;<span id="fork-count-3">–</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="github-card">
+          <div>
+            <a class="repo-link" href="https://github.com/Shuang-H/outdated-fact-detection" target="_blank">
+              HOFD: An outdated fact detector for knowledge bases
+            </a>
+            <span class="label">Project</span>
+          </div>
+          <div class="description">
+            HOFD is a human-in-the-loop approach for detecting outdated facts in knowledge bases. It trains a binary classifier on update signals (e.g., frequency and recency) to rank likely stale facts, has humans verify them, then uses logical rules to infer more outdated facts and feed these labels back into the model—showing strong results on YAGO and DBpedia.
+          </div>
+          <div class="meta">
+            <div class="dot"></div>
+            <div>Python</div>
+            <a href="https://github.com/Shuang-H/outdated-fact-detection/stargazers" target="_blank">
+              <svg fill="currentColor" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+                <path d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 
+                14.5L369.8 316.2 115.9 353.1c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 
+                179.1-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 
+                119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 
+                26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 
+                8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3z"></path>
+              </svg>
+              Star &nbsp;<span id="star-count-4">–</span>
+            </a>
+            <a href="https://github.com/Shuang-H/outdated-fact-detection/network/members" target="_blank">
+              <svg fill="currentColor" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                <path d="M14 4a2 2 0 1 0-2.47 1.94V7a.48.48 0 0 1-.27.44L8.49 
+                8.88l-2.76-1.4A.49.49 0 0 1 5.46 7V5.94a2 2 0 1 0-1 
+                0V7a1.51 1.51 0 0 0 .82 1.34L8 
+                9.74v1.32a2 2 0 1 0 1 0V9.74l2.7-1.36A1.49 
+                1.49 0 0 0 12.52 7V5.92A2 2 0 0 0 14 
+                4zM4 4a1 1 0 1 1 2 0 1 1 0 0 1-2 
+                0zm5.47 9a1 1 0 1 1-2 0 1 1 0 0 
+                1 2 0zM12 5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z">
+                </path>
+              </svg>
+              Fork &nbsp;<span id="fork-count-4">–</span>
+            </a>
+          </div>
+        </div>
+
+
+        <!-- Card 5 -->
+        <div class="github-card">
+          <div>
+            <a class="repo-link" href="https://github.com/yxfish13/HyperQO" target="_blank">
+             Cost-based or learning-based? A hybrid query optimizer for query plan selection
+            </a>
+            <span class="label">Project</span>
+          </div>
+          <div class="description">
+            A hybrid SQL query optimizer that combines learning-based and cost-based methods: it uses learning-derived hints to generate strong candidate plans, then picks the best using an uncertainty-aware execution-time predictor. On real workloads it beats state-of-the-art baselines, cutting total latency by ~25% and tail latency by ~65% vs. PostgreSQL.
+          </div>
+          <div class="meta">
+            <div class="dot"></div>
+            <div>Python</div>
+            <a href="https://github.com/yxfish13/HyperQO/stargazers" target="_blank">
+              <svg fill="currentColor" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+                <path d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 
+                14.5L369.8 316.2 115.9 353.1c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 
+                179.1-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 
+                119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 
+                26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 
+                8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3z"></path>
+              </svg>
+              Star &nbsp;<span id="star-count-5">–</span>
+            </a>
+            <a href="https://github.com/yxfish13/HyperQO/network/members" target="_blank">
+              <svg fill="currentColor" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                <path d="M14 4a2 2 0 1 0-2.47 1.94V7a.48.48 0 0 1-.27.44L8.49 
+                8.88l-2.76-1.4A.49.49 0 0 1 5.46 7V5.94a2 2 0 1 0-1 
+                0V7a1.51 1.51 0 0 0 .82 1.34L8 
+                9.74v1.32a2 2 0 1 0 1 0V9.74l2.7-1.36A1.49 
+                1.49 0 0 0 12.52 7V5.92A2 2 0 0 0 14 
+                4zM4 4a1 1 0 1 1 2 0 1 1 0 0 1-2 
+                0zm5.47 9a1 1 0 1 1-2 0 1 1 0 0 
+                1 2 0zM12 5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z">
+                </path>
+              </svg>
+              Fork &nbsp;<span id="fork-count-5">–</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="github-card">
+          <div>
+            <a class="repo-link" href="https://github.com/for0nething/RECON" target="_blank">
+              Coresets over multiple tables for feature-rich and data-efficient machine learning
+            </a>
+            <span class="label">Project</span>
+          </div>
+          <div class="description">
+            It proposes a way to get both feature-rich and data-efficient ML by selecting a coreset without materializing the feature-augmented (joined) table. The method pushes coreset gradient estimation down to per-table partial feature similarities with theoretical bounds, delivering ~100× faster selection while keeping near-full-data accuracy.
+          </div>
+          <div class="meta">
+            <div class="dot"></div>
+            <div>Python</div>
+            <a href="https://github.com/for0nething/RECON/stargazers" target="_blank">
+              <svg fill="currentColor" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+                <path d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 
+                14.5L369.8 316.2 115.9 353.1c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 
+                179.1-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 
+                119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 
+                26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 
+                8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3z"></path>
+              </svg>
+              Star &nbsp;<span id="star-count-6">–</span>
+            </a>
+            <a href="https://github.com/for0nething/RECON/network/members" target="_blank">
+              <svg fill="currentColor" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                <path d="M14 4a2 2 0 1 0-2.47 1.94V7a.48.48 0 0 1-.27.44L8.49 
+                8.88l-2.76-1.4A.49.49 0 0 1 5.46 7V5.94a2 2 0 1 0-1 
+                0V7a1.51 1.51 0 0 0 .82 1.34L8 
+                9.74v1.32a2 2 0 1 0 1 0V9.74l2.7-1.36A1.49 
+                1.49 0 0 0 12.52 7V5.92A2 2 0 0 0 14 
+                4zM4 4a1 1 0 1 1 2 0 1 1 0 0 1-2 
+                0zm5.47 9a1 1 0 1 1-2 0 1 1 0 0 
+                1 2 0zM12 5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z">
+                </path>
+              </svg>
+              Fork &nbsp;<span id="fork-count-6">–</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="github-card">
+          <div>
+            <a class="repo-link" href="https://github.com/ruc-datalab/DADER" target="_blank">
+              Domain adaptation for deep entity resolution
+            </a>
+            <span class="label">Project</span>
+          </div>
+          <div class="description">
+            A systematic study of domain adaptation for deep entity resolution: the paper proposes DADER, a framework spanning Feature Extractor, Matcher, and Feature Aligner, and comprehensively benchmarks DA methods to transfer from a labeled source ER dataset to unlabeled/low-label targets—summarizing what works, what doesn’t, and when.
+          </div>
+          <div class="meta">
+            <div class="dot"></div>
+            <div>Python</div>
+            <a href="https://github.com/ruc-datalab/DADER/stargazers" target="_blank">
+              <svg fill="currentColor" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+                <path d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 
+                14.5L369.8 316.2 115.9 353.1c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 
+                179.1-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 
+                119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 
+                26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 
+                8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3z"></path>
+              </svg>
+              Star &nbsp;<span id="star-count-7">–</span>
+            </a>
+            <a href="https://github.com/ruc-datalab/DADER/network/members" target="_blank">
+              <svg fill="currentColor" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                <path d="M14 4a2 2 0 1 0-2.47 1.94V7a.48.48 0 0 1-.27.44L8.49 
+                8.88l-2.76-1.4A.49.49 0 0 1 5.46 7V5.94a2 2 0 1 0-1 
+                0V7a1.51 1.51 0 0 0 .82 1.34L8 
+                9.74v1.32a2 2 0 1 0 1 0V9.74l2.7-1.36A1.49 
+                1.49 0 0 0 12.52 7V5.92A2 2 0 0 0 14 
+                4zM4 4a1 1 0 1 1 2 0 1 1 0 0 1-2 
+                0zm5.47 9a1 1 0 1 1-2 0 1 1 0 0 
+                1 2 0zM12 5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z">
+                </path>
+              </svg>
+              Fork &nbsp;<span id="fork-count-7">–</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Card 6 -->
+        <div class="github-card">
+          <div>
+            <a class="repo-link" href="https://github.com/HKUSTDial/ncNet" target="_blank">
+              Natural language to visualization by neural machine translation
+            </a>
+            <span class="label">Project</span>
+          </div>
+          <div class="description">
+            A Transformer-based NL2VIS system: ncNet takes a natural-language query over tabular data and produces a visualization/spec, using attention-forcing to improve training and visualization-aware rendering to yield higher-quality charts. The goal is to let non-experts generate accurate visualizations directly from plain language.
+          </div>
+          <div class="meta">
+            <div class="dot"></div>
+            <div>Python</div>
+            <a href="https://github.com/HKUSTDial/ncNet/stargazers" target="_blank">
+              <svg fill="currentColor" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+                <path d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 
+                14.5L369.8 316.2 115.9 353.1c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 
+                179.1-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 
+                119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 
+                26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 
+                8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3z"></path>
+              </svg>
+              Star &nbsp;<span id="star-count-8">–</span>
+            </a>
+            <a href="https://github.com/HKUSTDial/ncNet/network/members" target="_blank">
+              <svg fill="currentColor" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                <path d="M14 4a2 2 0 1 0-2.47 1.94V7a.48.48 0 0 1-.27.44L8.49 
+                8.88l-2.76-1.4A.49.49 0 0 1 5.46 7V5.94a2 2 0 1 0-1 
+                0V7a1.51 1.51 0 0 0 .82 1.34L8 
+                9.74v1.32a2 2 0 1 0 1 0V9.74l2.7-1.36A1.49 
+                1.49 0 0 0 12.52 7V5.92A2 2 0 0 0 14 
+                4zM4 4a1 1 0 1 1 2 0 1 1 0 0 1-2 
+                0zm5.47 9a1 1 0 1 1-2 0 1 1 0 0 
+                1 2 0zM12 5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z">
+                </path>
+              </svg>
+              Fork &nbsp;<span id="fork-count-8">–</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Card 9 -->
+        <div class="github-card">
+          <div>
+            <a class="repo-link" href="https://github.com/zhouxh19/LearnedRewrite" target="_blank">
+              A learned query rewrite system using monte carlo tree search
+            </a>
+            <span class="label">Project</span>
+          </div>
+          <div class="description">
+            evolveRewrite is a learned SQL transformation tool, which takes as input a SQL query and corresponding statistics (e.g., schema, #-table rows), finds the optimal rewrite sequence and outputs an optimized rewritten query. Currently evolveRewrite is developled based on Calcite.
+          </div>
+          <div class="meta">
+            <div class="dot"></div>
+            <div>Python</div>
+            <a href="https://github.com/zhouxh19/LearnedRewrite/stargazers" target="_blank">
+              <svg fill="currentColor" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+                <path d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 
+                14.5L369.8 316.2 115.9 353.1c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 
+                179.1-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 
+                119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 
+                26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 
+                8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3z"></path>
+              </svg>
+              Star &nbsp;<span id="star-count-9">–</span>
+            </a>
+            <a href="https://github.com/zhouxh19/LearnedRewrite/network/members" target="_blank">
+              <svg fill="currentColor" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                <path d="M14 4a2 2 0 1 0-2.47 1.94V7a.48.48 0 0 1-.27.44L8.49 
+                8.88l-2.76-1.4A.49.49 0 0 1 5.46 7V5.94a2 2 0 1 0-1 
+                0V7a1.51 1.51 0 0 0 .82 1.34L8 
+                9.74v1.32a2 2 0 1 0 1 0V9.74l2.7-1.36A1.49 
+                1.49 0 0 0 12.52 7V5.92A2 2 0 0 0 14 
+                4zM4 4a1 1 0 1 1 2 0 1 1 0 0 1-2 
+                0zm5.47 9a1 1 0 1 1-2 0 1 1 0 0 
+                1 2 0zM12 5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z">
+                </path>
+              </svg>
+              Fork &nbsp;<span id="fork-count-9">–</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Card 10 -->
+        <div class="github-card">
+          <div>
+            <a class="repo-link" href="https://github.com/TsinghuaDatabaseGroup/CDB" target="_blank">
+              CDB: A crowd-powered database system
+            </a>
+            <span class="label">Project</span>
+          </div>
+          <div class="description">
+            CDB is a crowd-powered database system that supports crowd-based query optimizations with focus on join and selection. CDB has fundamental differences from existing systems. First, CDB employs a graph-based query model that provides more fine-grained query optimization. Second, CDB adopts a unified framework to perform the multi-goal optimization based on the graph model. We have implemented our system and deployed it on Amazon Mechanical Turk, CrowdFlower and ChinaCrowd.
+          </div>
+          <div class="meta">
+            <div class="dot"></div>
+            <div>Python</div>
+            <a href="https://github.com/TsinghuaDatabaseGroup/CDB/stargazers" target="_blank">
+              <svg fill="currentColor" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+                <path d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 
+                14.5L369.8 316.2 115.9 353.1c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 
+                179.1-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 
+                119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 
+                26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 
+                8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3z"></path>
+              </svg>
+              Star &nbsp;<span id="star-count-10">–</span>
+            </a>
+            <a href="https://github.com/TsinghuaDatabaseGroup/CDB/network/members" target="_blank">
+              <svg fill="currentColor" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                <path d="M14 4a2 2 0 1 0-2.47 1.94V7a.48.48 0 0 1-.27.44L8.49 
+                8.88l-2.76-1.4A.49.49 0 0 1 5.46 7V5.94a2 2 0 1 0-1 
+                0V7a1.51 1.51 0 0 0 .82 1.34L8 
+                9.74v1.32a2 2 0 1 0 1 0V9.74l2.7-1.36A1.49 
+                1.49 0 0 0 12.52 7V5.92A2 2 0 0 0 14 
+                4zM4 4a1 1 0 1 1 2 0 1 1 0 0 1-2 
+                0zm5.47 9a1 1 0 1 1-2 0 1 1 0 0 
+                1 2 0zM12 5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z">
+                </path>
+              </svg>
+              Fork &nbsp;<span id="fork-count-10">–</span>
+            </a>
+          </div>
+        </div>
+
+
+        <div class="github-card">
+          <div>
+            <a class="repo-link" href="https://github.com/HKUSTDial/NL2SQL_Handbook" target="_blank">
+              Natural Language to SQL: State of the Art and Open Problems
+            </a>
+            <span class="label">Project</span>
+          </div>
+          <div class="description">
+            From this repository, you can view the 📚latest advancements in Text-to-SQL (a.k.a NL2SQL). This handbook corresponds to our survey paper[TKDE'2025]: 📖A Survey of Text-to-SQL in the Era of LLMs: Where are we, and where are we going?. We also provide tutorial slides [Update soon for VLDB'2025 Tutorial]to summarize the key points of this survey. Based on language model trends, we've created a river diagram of Text-to-SQL methods to trace the field's evolution.
+          </div>
+          <div class="meta">
+            <div class="dot"></div>
+            <div>Python</div>
+            <a href="https://github.com/HKUSTDial/NL2SQL_Handbook/stargazers" target="_blank">
+              <svg fill="currentColor" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+                <path d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 
+                14.5L369.8 316.2 115.9 353.1c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 
+                179.1-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 
+                119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 
+                26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 
+                8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3z"></path>
+              </svg>
+              Star &nbsp;<span id="star-count-11">–</span>
+            </a>
+            <a href="https://github.com/HKUSTDial/NL2SQL_Handbook/network/members" target="_blank">
+              <svg fill="currentColor" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                <path d="M14 4a2 2 0 1 0-2.47 1.94V7a.48.48 0 0 1-.27.44L8.49 
+                8.88l-2.76-1.4A.49.49 0 0 1 5.46 7V5.94a2 2 0 1 0-1 
+                0V7a1.51 1.51 0 0 0 .82 1.34L8 
+                9.74v1.32a2 2 0 1 0 1 0V9.74l2.7-1.36A1.49 
+                1.49 0 0 0 12.52 7V5.92A2 2 0 0 0 14 
+                4zM4 4a1 1 0 1 1 2 0 1 1 0 0 1-2 
+                0zm5.47 9a1 1 0 1 1-2 0 1 1 0 0 
+                1 2 0zM12 5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z">
+                </path>
+              </svg>
+              Fork &nbsp;<span id="fork-count-11">–</span>
+            </a>
+          </div>
+        </div>
+
+        
+        </div>
+    </div>
+  </div>
+</div>
+
+<div class="wrapper">
+  <div id="awards" class="bio">
+    <h1 class="md-heading text-left" style="padding-top: 56px; margin-top: -56px;">
+      <i class="fa fa-tasks" aria-hidden="true"></i>
+      Selected Honors & Awards
+    </h1>
+    <ul>
+  	<li> CCF Outstanding Doctoral Dissertation Award</li>
+	<li> ACM China Outstanding Doctoral Dissertation Award</li>
+	<li> Forbes China 30 Under 30</li>
+	<li> China National Postdoctoral Program for Innovative Talents</li>
+	<li> Baidu Scholarship(Global Top 10)</li>
+  <li> <strong>First Prize</strong>, Science & Technology Progress Award, State Grid Corporation of China</li>
+  <li> <strong>Second Prize</strong>, Zhejiang Provincial Science & Technology Progress Award</li>
+  <li> Zhejiang Lab Outstanding Achievement Award for International Young Talents</li>
+  <li> Outstanding Postdoctoral Fellow, Tsinghua University</li>
+  <li> Outstanding Doctoral Graduate, Tsinghua University</li>
+    </ul>
+  </div>
+</div>
+
+<style>
+  .reviewer-section {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 8px;
+  }
+
+  .reviewer-column {
+    flex: 1 1 50%;
+    box-sizing: border-box;
+    padding-right: 20px;
+    font-size: 0.85em; /* 字体略微变小 */
+    line-height: 1.6;
+    position: relative;
+    padding-left: 1em;
+    margin-bottom: 4px;
+  }
+
+  .reviewer-column::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #555;
+  }
+
+  @media (max-width: 600px) {
+    .reviewer-column {
+      flex: 1 1 100%;
+    }
+  }
+
+  .reviewer-title {
+    margin-top: 12px;
+    font-weight: bold;
+  }
+</style>
+
+<div class="wrapper">
+  <div id="academicservices" class="bio">
+    <div class="bio-body" style="overflow:hidden;">
+      <h1 class="md-heading text-left" style="padding-top: 56px; margin-top: -56px;">
+        <i class="fa fa-tasks" aria-hidden="true"></i>
+        Academic Services
+      </h1>  
+
+    <ul>
+  	<li> Executive Committee Member, CCF Database Technical Committee</li>
+	<li> Academic Director, CCF Advanced Disciplines Lectures</li>
+	<li> Workshop Chair, DBML Workshop at ICDE</li>
+	<li> Workshop Chair, BDQM Workshop at DASFAA</li>
+	<li> Guest Editor, <em>Journal of Computer Science and Technology</em> (JCST)</li>
+  <li> Program Committee Member (multiple times): <em>VLDB, ICDE, KDD, AAAI</em>, etc.</li>
+
+    </ul>
+    </div>
+  </div>
+</div>
+
+
+
+
+<div style="display: flex; justify-content: center; align-items: center;">
+  <div style="max-width: 400px; width: 100%;">
+    <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=K9NLvpbM7GH1cTCvhvVlo4LW5p-d2mRZYw6UhrAFw0g&cl=ffffff&w=a"></script>
+  </div>
+</div>
+
+
+<footer class="site-footer">
+  <div class="wrapper">
+    <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+        <ul class="contact-list">
+          <li>Personal Email:</li>
+          <li><a href="mailto:ccl@bit.edu.cn">ccl@bit.edu.cn</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-2">
+          <a href="https://scholar.google.com/citations?user=qMPFwIUAAAAJ" target="_blank" class="icon-button github">
+          <i class="ai ai-google-scholar-square icon-github"></i>
+            <span></span>
+          </a>
+
+          <a href="" target="_blank" class="icon-button github">
+            <i class="fa fa-github icon-github"></i>
+            <span></span>
+          </a>
+
+          <a href="" target="_blank" class="icon-button linkedin">
+            <i class="fa fa-linkedin icon-linkedin"></i>
+            <span></span>
+          </a>
+         
+          <a href="" target="_blank" class="icon-button github">
+            <i class="ai ai-cv icon-github"></i>
+            <span></span>
+          </a>
+      </div>
+	<div class="footer-col footer-col-3">
+    	<!--<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fwillhua127.github.io&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false"/></a> -->
+	<!-- <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?user=Lxe71v4AAAAJ&hl=en&url=https%3A%2F%2Fscholar.google.com%2Fcitations&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false"/></a> -->
+		<p class="text">Last updated: Aug, 2025.<br></p>
+	</div>
+  </div>
+  </div>
+
+</footer>
+    <div class="back-to-top">Top</div>
+
+
+<script type="text/javascript">
+jQuery(document).ready(function() {
+    var offset = 220;
+    var duration = 500;
+    jQuery(window).scroll(function() {
+        if (jQuery(this).scrollTop() > offset) {
+            jQuery('.back-to-top').fadeIn(duration);
+        } else {
+            jQuery('.back-to-top').fadeOut(duration);
+    
+        }
+    });
+    jQuery('.back-to-top').click(function(event) {
+        event.preventDefault();
+        jQuery('html, body').animate({scrollTop: 0}, duration);
+        return false;
+    })
+});
+</script>
+  </body>
+
+<!--
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-60071442-1', 'auto');
+  ga('send', 'pageview');
+</script>
+-->
+
+<!--<script src="custom-pub.js"></script>-->
+</html>
